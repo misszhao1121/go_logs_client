@@ -1,0 +1,8 @@
+2024/06/01 23:25:40.124 [D]  initialize successful
+2024/06/01 23:25:40.124 [D]  load conf success,config:&{debug ./logs/logagent.log [{/home/logs/nginx/access.log nginx_log}]}
+2024/06/01 23:46:58.202 [D]  load conf success,config:&{debug ./logs/logagent.log [{/home/logs/nginx/access.log nginx_log}]}
+2024/06/01 23:46:58.202 [D]  initualize all ssucc
+2024/06/01 23:46:58.202 [I]  program exited
+2024/06/01 23:47:39.569 [D]  load conf success,config:&{debug ./logs/logagent.log [{/home/logs/nginx/access.log nginx_log}]}
+2024/06/01 23:47:39.569 [D]  initalIize all success
+2024/06/01 23:47:39.569 [I]  program exited
