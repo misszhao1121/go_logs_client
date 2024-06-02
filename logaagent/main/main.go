@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/astaxie/beego/logs"
+	"logs-client/logaagent/kafka"
 	"logs-client/tail"
 )
 
@@ -24,12 +25,19 @@ func main() {
 
 	logs.Debug("load conf success,config:%v", appConfig)
 
-	err = tail.InitTail(appConfig.CollectConf)
+	err = tailf.InitTail(appConfig.CollectConf, appConfig.queueSize)
 	if err != nil {
 		logs.Error("init tail failed,err:%v", err)
 		return
 	}
-	logs.Debug("initalIize all success")
+
+	err = kafka.InitKfka(appConfig.kafkaAddr)
+	if err != nil {
+		logs.Error("init kafka failed,kafkaAddr:%v", appConfig.kafkaAddr)
+		return
+	}
+	logs.Debug("initialLi all success")
+
 	err = serverRun()
 	if err != nil {
 		logs.Error("serverRun failed, err:%v", err)

@@ -1,8 +1,2100 @@
-2024/06/01 23:25:40.124 [D]  initialize successful
-2024/06/01 23:25:40.124 [D]  load conf success,config:&{debug ./logs/logagent.log [{/home/logs/nginx/access.log nginx_log}]}
-2024/06/01 23:46:58.202 [D]  load conf success,config:&{debug ./logs/logagent.log [{/home/logs/nginx/access.log nginx_log}]}
-2024/06/01 23:46:58.202 [D]  initualize all ssucc
-2024/06/01 23:46:58.202 [I]  program exited
-2024/06/01 23:47:39.569 [D]  load conf success,config:&{debug ./logs/logagent.log [{/home/logs/nginx/access.log nginx_log}]}
-2024/06/01 23:47:39.569 [D]  initalIize all success
-2024/06/01 23:47:39.569 [I]  program exited
+2024/06/02 17:44:27.980 [D]  load conf success,config:&{debug ./logs/logagent.log 100 127.0.0.1:9092 [{./logs/logagent.log nginx_log}]}
+2024/06/02 17:44:28.749 [E]  init kafka failed,err: kafka: client has run out of available brokers to talk to: dial tcp 127.0.0.1:9092: connectex: No connection could be made because the target machine actively refused it.
+2024/06/02 17:44:28.749 [E]  init kafka failed,kafkaAddr:127.0.0.1:9092
+2024/06/02 17:56:48.514 [D]  load conf success,config:&{debug ./logs/logagent.log 100 162.14.100.125:9092 [{./logs/logagent.log nginx_log}]}
+2024/06/02 17:56:48.611 [D]  kafka conection success
+2024/06/02 17:56:48.611 [D]  initialLi all success
+2024/06/02 17:57:19.214 [E]  send kafka failed,pid:-1,offset:-1,topic:nginx_log
+
+2024/06/02 17:57:19.215 [E]  send to kafka err:dial tcp: lookup kafka: no such host
+2024/06/02 17:57:38.967 [E]  send kafka failed,pid:-1,offset:-1,topic:nginx_log
+
+2024/06/02 17:57:38.967 [E]  send to kafka err:dial tcp: lookup kafka: no such host
+2024/06/02 17:57:58.719 [E]  send kafka failed,pid:-1,offset:-1,topic:nginx_log
+
+2024/06/02 17:57:58.719 [E]  send to kafka err:dial tcp: lookup kafka: no such host
+2024/06/02 17:58:18.476 [E]  send kafka failed,pid:-1,offset:-1,topic:nginx_log
+
+2024/06/02 17:58:18.477 [E]  send to kafka err:dial tcp: lookup kafka: no such host
+2024/06/02 17:58:38.216 [E]  send kafka failed,pid:-1,offset:-1,topic:nginx_log
+
+2024/06/02 17:58:38.216 [E]  send to kafka err:dial tcp: lookup kafka: no such host
+2024/06/02 17:58:57.932 [E]  send kafka failed,pid:-1,offset:-1,topic:nginx_log
+
+2024/06/02 17:58:57.932 [E]  send to kafka err:dial tcp: lookup kafka: no such host
+2024/06/02 17:59:17.672 [E]  send kafka failed,pid:-1,offset:-1,topic:nginx_log
+
+2024/06/02 17:59:17.672 [E]  send to kafka err:dial tcp: lookup kafka: no such host
+2024/06/02 17:59:37.425 [E]  send kafka failed,pid:-1,offset:-1,topic:nginx_log
+
+2024/06/02 17:59:37.425 [E]  send to kafka err:dial tcp: lookup kafka: no such host
+2024/06/02 17:59:57.112 [E]  send kafka failed,pid:-1,offset:-1,topic:nginx_log
+
+2024/06/02 17:59:57.113 [E]  send to kafka err:dial tcp: lookup kafka: no such host
+2024/06/02 18:00:16.867 [E]  send kafka failed,pid:-1,offset:-1,topic:nginx_log
+
+2024/06/02 18:00:16.867 [E]  send to kafka err:dial tcp: lookup kafka: no such host
+2024/06/02 18:00:36.613 [E]  send kafka failed,pid:-1,offset:-1,topic:nginx_log
+
+2024/06/02 18:00:36.613 [E]  send to kafka err:dial tcp: lookup kafka: no such host
+2024/06/02 18:00:56.337 [E]  send kafka failed,pid:-1,offset:-1,topic:nginx_log
+
+2024/06/02 18:00:56.337 [E]  send to kafka err:dial tcp: lookup kafka: no such host
+2024/06/02 18:01:16.055 [E]  send kafka failed,pid:-1,offset:-1,topic:nginx_log
+
+2024/06/02 18:01:16.055 [E]  send to kafka err:dial tcp: lookup kafka: no such host
+2024/06/02 18:01:35.796 [E]  send kafka failed,pid:-1,offset:-1,topic:nginx_log
+
+2024/06/02 18:01:35.797 [E]  send to kafka err:dial tcp: lookup kafka: no such host
+2024/06/02 18:01:40.499 [D]  load conf success,config:&{debug ./logs/logagent.log 100 162.14.100.125:9092 [{./logs/logagent.log nginx_log}]}
+2024/06/02 18:01:40.590 [D]  kafka conection success
+2024/06/02 18:01:40.590 [D]  initialLi all success
+2024/06/02 18:02:01.603 [E]  send kafka failed,pid:-1,offset:-1,topic:nginx_log
+
+2024/06/02 18:02:01.604 [E]  send to kafka err1:dial tcp: lookup kafka: no such host
+2024/06/02 18:02:21.369 [E]  send kafka failed,pid:-1,offset:-1,topic:nginx_log
+
+2024/06/02 18:02:21.369 [E]  send to kafka err1:dial tcp: lookup kafka: no such host
+2024/06/02 18:02:41.106 [E]  send kafka failed,pid:-1,offset:-1,topic:nginx_log
+
+2024/06/02 18:02:41.107 [E]  send to kafka err1:dial tcp: lookup kafka: no such host
+2024/06/02 18:03:00.839 [E]  send kafka failed,pid:-1,offset:-1,topic:nginx_log
+
+2024/06/02 18:03:00.839 [E]  send to kafka err1:dial tcp: lookup kafka: no such host
+2024/06/02 18:03:20.561 [E]  send kafka failed,pid:-1,offset:-1,topic:nginx_log
+
+2024/06/02 18:03:20.561 [E]  send to kafka err1:dial tcp: lookup kafka: no such host
+2024/06/02 18:03:40.290 [E]  send kafka failed,pid:-1,offset:-1,topic:nginx_log
+
+2024/06/02 18:03:40.291 [E]  send to kafka err1:dial tcp: lookup kafka: no such host
+2024/06/02 18:04:00.032 [E]  send kafka failed,pid:-1,offset:-1,topic:nginx_log
+
+2024/06/02 18:04:00.032 [E]  send to kafka err1:dial tcp: lookup kafka: no such host
+2024/06/02 18:04:19.809 [E]  send kafka failed,pid:-1,offset:-1,topic:nginx_log
+
+2024/06/02 18:04:19.809 [E]  send to kafka err1:dial tcp: lookup kafka: no such host
+2024/06/02 18:04:39.525 [E]  send kafka failed,pid:-1,offset:-1,topic:nginx_log
+
+2024/06/02 18:04:39.526 [E]  send to kafka err1:dial tcp: lookup kafka: no such host
+2024/06/02 18:04:59.260 [E]  send kafka failed,pid:-1,offset:-1,topic:nginx_log
+
+2024/06/02 18:04:59.260 [E]  send to kafka err1:dial tcp: lookup kafka: no such host
+2024/06/02 18:05:18.955 [E]  send kafka failed,pid:-1,offset:-1,topic:nginx_log
+
+2024/06/02 18:05:18.955 [E]  send to kafka err1:dial tcp: lookup kafka: no such host
+2024/06/02 18:05:38.702 [E]  send kafka failed,pid:-1,offset:-1,topic:nginx_log
+
+2024/06/02 18:05:38.702 [E]  send to kafka err1:dial tcp: lookup kafka: no such host
+2024/06/02 18:05:44.699 [D]  send succ,pid:0,offset:0,topic:nginx_log
+
+2024/06/02 18:05:44.739 [D]  send succ,pid:0,offset:1,topic:nginx_log
+
+2024/06/02 18:05:44.810 [D]  send succ,pid:0,offset:2,topic:nginx_log
+
+2024/06/02 18:05:44.869 [D]  send succ,pid:0,offset:3,topic:nginx_log
+
+2024/06/02 18:05:44.929 [D]  send succ,pid:0,offset:4,topic:nginx_log
+
+2024/06/02 18:05:44.989 [D]  send succ,pid:0,offset:5,topic:nginx_log
+
+2024/06/02 18:05:45.049 [D]  send succ,pid:0,offset:6,topic:nginx_log
+
+2024/06/02 18:05:45.109 [D]  send succ,pid:0,offset:7,topic:nginx_log
+
+2024/06/02 18:05:45.170 [D]  send succ,pid:0,offset:8,topic:nginx_log
+
+2024/06/02 18:05:45.229 [D]  send succ,pid:0,offset:9,topic:nginx_log
+
+2024/06/02 18:05:45.269 [D]  send succ,pid:0,offset:10,topic:nginx_log
+
+2024/06/02 18:05:45.329 [D]  send succ,pid:0,offset:11,topic:nginx_log
+
+2024/06/02 18:05:45.389 [D]  send succ,pid:0,offset:12,topic:nginx_log
+
+2024/06/02 18:05:45.452 [D]  send succ,pid:0,offset:13,topic:nginx_log
+
+2024/06/02 18:05:45.519 [D]  send succ,pid:0,offset:14,topic:nginx_log
+
+2024/06/02 18:05:45.580 [D]  send succ,pid:0,offset:15,topic:nginx_log
+
+2024/06/02 18:05:45.619 [D]  send succ,pid:0,offset:16,topic:nginx_log
+
+2024/06/02 18:05:45.679 [D]  send succ,pid:0,offset:17,topic:nginx_log
+
+2024/06/02 18:05:45.749 [D]  send succ,pid:0,offset:18,topic:nginx_log
+
+2024/06/02 18:05:45.809 [D]  send succ,pid:0,offset:19,topic:nginx_log
+
+2024/06/02 18:05:45.869 [D]  send succ,pid:0,offset:20,topic:nginx_log
+
+2024/06/02 18:05:45.929 [D]  send succ,pid:0,offset:21,topic:nginx_log
+
+2024/06/02 18:05:45.990 [D]  send succ,pid:0,offset:22,topic:nginx_log
+
+2024/06/02 18:05:46.049 [D]  send succ,pid:0,offset:23,topic:nginx_log
+
+2024/06/02 18:05:46.109 [D]  send succ,pid:0,offset:24,topic:nginx_log
+
+2024/06/02 18:05:46.169 [D]  send succ,pid:0,offset:25,topic:nginx_log
+
+2024/06/02 18:05:46.229 [D]  send succ,pid:0,offset:26,topic:nginx_log
+
+2024/06/02 18:05:46.289 [D]  send succ,pid:0,offset:27,topic:nginx_log
+
+2024/06/02 18:05:46.349 [D]  send succ,pid:0,offset:28,topic:nginx_log
+
+2024/06/02 18:05:46.411 [D]  send succ,pid:0,offset:29,topic:nginx_log
+
+2024/06/02 18:05:46.468 [D]  send succ,pid:0,offset:30,topic:nginx_log
+
+2024/06/02 18:05:46.531 [D]  send succ,pid:0,offset:31,topic:nginx_log
+
+2024/06/02 18:05:46.602 [D]  send succ,pid:0,offset:32,topic:nginx_log
+
+2024/06/02 18:05:46.670 [D]  send succ,pid:0,offset:33,topic:nginx_log
+
+2024/06/02 18:05:46.744 [D]  send succ,pid:0,offset:34,topic:nginx_log
+
+2024/06/02 18:05:46.813 [D]  send succ,pid:0,offset:35,topic:nginx_log
+
+2024/06/02 18:05:46.888 [D]  send succ,pid:0,offset:36,topic:nginx_log
+
+2024/06/02 18:05:46.949 [D]  send succ,pid:0,offset:37,topic:nginx_log
+
+2024/06/02 18:05:47.009 [D]  send succ,pid:0,offset:38,topic:nginx_log
+
+2024/06/02 18:05:47.058 [D]  send succ,pid:0,offset:39,topic:nginx_log
+
+2024/06/02 18:05:47.118 [D]  send succ,pid:0,offset:40,topic:nginx_log
+
+2024/06/02 18:05:47.159 [D]  send succ,pid:0,offset:41,topic:nginx_log
+
+2024/06/02 18:05:47.219 [D]  send succ,pid:0,offset:42,topic:nginx_log
+
+2024/06/02 18:05:47.280 [D]  send succ,pid:0,offset:43,topic:nginx_log
+
+2024/06/02 18:05:47.339 [D]  send succ,pid:0,offset:44,topic:nginx_log
+
+2024/06/02 18:05:47.401 [D]  send succ,pid:0,offset:45,topic:nginx_log
+
+2024/06/02 18:05:47.478 [D]  send succ,pid:0,offset:46,topic:nginx_log
+
+2024/06/02 18:05:47.522 [D]  send succ,pid:0,offset:47,topic:nginx_log
+
+2024/06/02 18:05:47.589 [D]  send succ,pid:0,offset:48,topic:nginx_log
+
+2024/06/02 18:05:47.649 [D]  send succ,pid:0,offset:49,topic:nginx_log
+
+2024/06/02 18:05:47.710 [D]  send succ,pid:0,offset:50,topic:nginx_log
+
+2024/06/02 18:05:47.769 [D]  send succ,pid:0,offset:51,topic:nginx_log
+
+2024/06/02 18:05:47.829 [D]  send succ,pid:0,offset:52,topic:nginx_log
+
+2024/06/02 18:05:47.889 [D]  send succ,pid:0,offset:53,topic:nginx_log
+
+2024/06/02 18:05:47.949 [D]  send succ,pid:0,offset:54,topic:nginx_log
+
+2024/06/02 18:05:48.009 [D]  send succ,pid:0,offset:55,topic:nginx_log
+
+2024/06/02 18:05:48.070 [D]  send succ,pid:0,offset:56,topic:nginx_log
+
+2024/06/02 18:05:48.131 [D]  send succ,pid:0,offset:57,topic:nginx_log
+
+2024/06/02 18:05:48.189 [D]  send succ,pid:0,offset:58,topic:nginx_log
+
+2024/06/02 18:05:48.248 [D]  send succ,pid:0,offset:59,topic:nginx_log
+
+2024/06/02 18:05:48.309 [D]  send succ,pid:0,offset:60,topic:nginx_log
+
+2024/06/02 18:05:48.369 [D]  send succ,pid:0,offset:61,topic:nginx_log
+
+2024/06/02 18:05:48.439 [D]  send succ,pid:0,offset:62,topic:nginx_log
+
+2024/06/02 18:05:48.498 [D]  send succ,pid:0,offset:63,topic:nginx_log
+
+2024/06/02 18:05:48.559 [D]  send succ,pid:0,offset:64,topic:nginx_log
+
+2024/06/02 18:05:48.619 [D]  send succ,pid:0,offset:65,topic:nginx_log
+
+2024/06/02 18:05:48.679 [D]  send succ,pid:0,offset:66,topic:nginx_log
+
+2024/06/02 18:05:48.741 [D]  send succ,pid:0,offset:67,topic:nginx_log
+
+2024/06/02 18:05:48.799 [D]  send succ,pid:0,offset:68,topic:nginx_log
+
+2024/06/02 18:05:48.859 [D]  send succ,pid:0,offset:69,topic:nginx_log
+
+2024/06/02 18:05:48.919 [D]  send succ,pid:0,offset:70,topic:nginx_log
+
+2024/06/02 18:05:48.979 [D]  send succ,pid:0,offset:71,topic:nginx_log
+
+2024/06/02 18:05:49.039 [D]  send succ,pid:0,offset:72,topic:nginx_log
+
+2024/06/02 18:05:49.100 [D]  send succ,pid:0,offset:73,topic:nginx_log
+
+2024/06/02 18:05:49.159 [D]  send succ,pid:0,offset:74,topic:nginx_log
+
+2024/06/02 18:05:49.219 [D]  send succ,pid:0,offset:75,topic:nginx_log
+
+2024/06/02 18:05:49.279 [D]  send succ,pid:0,offset:76,topic:nginx_log
+
+2024/06/02 18:05:49.339 [D]  send succ,pid:0,offset:77,topic:nginx_log
+
+2024/06/02 18:05:49.399 [D]  send succ,pid:0,offset:78,topic:nginx_log
+
+2024/06/02 18:05:49.459 [D]  send succ,pid:0,offset:79,topic:nginx_log
+
+2024/06/02 18:05:49.521 [D]  send succ,pid:0,offset:80,topic:nginx_log
+
+2024/06/02 18:05:49.579 [D]  send succ,pid:0,offset:81,topic:nginx_log
+
+2024/06/02 18:05:49.639 [D]  send succ,pid:0,offset:82,topic:nginx_log
+
+2024/06/02 18:05:49.679 [D]  send succ,pid:0,offset:83,topic:nginx_log
+
+2024/06/02 18:05:49.739 [D]  send succ,pid:0,offset:84,topic:nginx_log
+
+2024/06/02 18:05:49.799 [D]  send succ,pid:0,offset:85,topic:nginx_log
+
+2024/06/02 18:05:49.859 [D]  send succ,pid:0,offset:86,topic:nginx_log
+
+2024/06/02 18:05:49.919 [D]  send succ,pid:0,offset:87,topic:nginx_log
+
+2024/06/02 18:05:49.979 [D]  send succ,pid:0,offset:88,topic:nginx_log
+
+2024/06/02 18:05:50.039 [D]  send succ,pid:0,offset:89,topic:nginx_log
+
+2024/06/02 18:05:50.099 [D]  send succ,pid:0,offset:90,topic:nginx_log
+
+2024/06/02 18:05:50.159 [D]  send succ,pid:0,offset:91,topic:nginx_log
+
+2024/06/02 18:05:50.220 [D]  send succ,pid:0,offset:92,topic:nginx_log
+
+2024/06/02 18:05:50.279 [D]  send succ,pid:0,offset:93,topic:nginx_log
+
+2024/06/02 18:05:50.339 [D]  send succ,pid:0,offset:94,topic:nginx_log
+
+2024/06/02 18:05:50.399 [D]  send succ,pid:0,offset:95,topic:nginx_log
+
+2024/06/02 18:05:50.459 [D]  send succ,pid:0,offset:96,topic:nginx_log
+
+2024/06/02 18:05:50.519 [D]  send succ,pid:0,offset:97,topic:nginx_log
+
+2024/06/02 18:05:50.579 [D]  send succ,pid:0,offset:98,topic:nginx_log
+
+2024/06/02 18:05:50.639 [D]  send succ,pid:0,offset:99,topic:nginx_log
+
+2024/06/02 18:05:50.699 [D]  send succ,pid:0,offset:100,topic:nginx_log
+
+2024/06/02 18:05:50.759 [D]  send succ,pid:0,offset:101,topic:nginx_log
+
+2024/06/02 18:05:50.819 [D]  send succ,pid:0,offset:102,topic:nginx_log
+
+2024/06/02 18:05:50.879 [D]  send succ,pid:0,offset:103,topic:nginx_log
+
+2024/06/02 18:05:50.939 [D]  send succ,pid:0,offset:104,topic:nginx_log
+
+2024/06/02 18:05:50.999 [D]  send succ,pid:0,offset:105,topic:nginx_log
+
+2024/06/02 18:05:51.059 [D]  send succ,pid:0,offset:106,topic:nginx_log
+
+2024/06/02 18:05:51.119 [D]  send succ,pid:0,offset:107,topic:nginx_log
+
+2024/06/02 18:05:51.179 [D]  send succ,pid:0,offset:108,topic:nginx_log
+
+2024/06/02 18:05:51.240 [D]  send succ,pid:0,offset:109,topic:nginx_log
+
+2024/06/02 18:05:51.302 [D]  send succ,pid:0,offset:110,topic:nginx_log
+
+2024/06/02 18:05:51.370 [D]  send succ,pid:0,offset:111,topic:nginx_log
+
+2024/06/02 18:05:51.429 [D]  send succ,pid:0,offset:112,topic:nginx_log
+
+2024/06/02 18:05:51.497 [D]  send succ,pid:0,offset:113,topic:nginx_log
+
+2024/06/02 18:05:51.559 [D]  send succ,pid:0,offset:114,topic:nginx_log
+
+2024/06/02 18:05:51.621 [D]  send succ,pid:0,offset:115,topic:nginx_log
+
+2024/06/02 18:05:51.679 [D]  send succ,pid:0,offset:116,topic:nginx_log
+
+2024/06/02 18:05:51.739 [D]  send succ,pid:0,offset:117,topic:nginx_log
+
+2024/06/02 18:05:51.799 [D]  send succ,pid:0,offset:118,topic:nginx_log
+
+2024/06/02 18:05:51.859 [D]  send succ,pid:0,offset:119,topic:nginx_log
+
+2024/06/02 18:05:51.919 [D]  send succ,pid:0,offset:120,topic:nginx_log
+
+2024/06/02 18:05:51.979 [D]  send succ,pid:0,offset:121,topic:nginx_log
+
+2024/06/02 18:05:52.038 [D]  send succ,pid:0,offset:122,topic:nginx_log
+
+2024/06/02 18:05:52.099 [D]  send succ,pid:0,offset:123,topic:nginx_log
+
+2024/06/02 18:05:52.163 [D]  send succ,pid:0,offset:124,topic:nginx_log
+
+2024/06/02 18:05:52.230 [D]  send succ,pid:0,offset:125,topic:nginx_log
+
+2024/06/02 18:05:52.290 [D]  send succ,pid:0,offset:126,topic:nginx_log
+
+2024/06/02 18:05:52.359 [D]  send succ,pid:0,offset:127,topic:nginx_log
+
+2024/06/02 18:05:52.419 [D]  send succ,pid:0,offset:128,topic:nginx_log
+
+2024/06/02 18:05:52.482 [D]  send succ,pid:0,offset:129,topic:nginx_log
+
+2024/06/02 18:05:52.553 [D]  send succ,pid:0,offset:130,topic:nginx_log
+
+2024/06/02 18:05:52.626 [D]  send succ,pid:0,offset:131,topic:nginx_log
+
+2024/06/02 18:05:52.702 [D]  send succ,pid:0,offset:132,topic:nginx_log
+
+2024/06/02 18:05:52.769 [D]  send succ,pid:0,offset:133,topic:nginx_log
+
+2024/06/02 18:05:52.836 [D]  send succ,pid:0,offset:134,topic:nginx_log
+
+2024/06/02 18:05:52.899 [D]  send succ,pid:0,offset:135,topic:nginx_log
+
+2024/06/02 18:05:52.959 [D]  send succ,pid:0,offset:136,topic:nginx_log
+
+2024/06/02 18:05:53.019 [D]  send succ,pid:0,offset:137,topic:nginx_log
+
+2024/06/02 18:05:53.079 [D]  send succ,pid:0,offset:138,topic:nginx_log
+
+2024/06/02 18:05:53.139 [D]  send succ,pid:0,offset:139,topic:nginx_log
+
+2024/06/02 18:05:53.200 [D]  send succ,pid:0,offset:140,topic:nginx_log
+
+2024/06/02 18:05:53.260 [D]  send succ,pid:0,offset:141,topic:nginx_log
+
+2024/06/02 18:05:53.319 [D]  send succ,pid:0,offset:142,topic:nginx_log
+
+2024/06/02 18:05:53.379 [D]  send succ,pid:0,offset:143,topic:nginx_log
+
+2024/06/02 18:05:53.439 [D]  send succ,pid:0,offset:144,topic:nginx_log
+
+2024/06/02 18:05:53.499 [D]  send succ,pid:0,offset:145,topic:nginx_log
+
+2024/06/02 18:05:53.549 [D]  send succ,pid:0,offset:146,topic:nginx_log
+
+2024/06/02 18:05:53.609 [D]  send succ,pid:0,offset:147,topic:nginx_log
+
+2024/06/02 18:05:53.669 [D]  send succ,pid:0,offset:148,topic:nginx_log
+
+2024/06/02 18:05:53.729 [D]  send succ,pid:0,offset:149,topic:nginx_log
+
+2024/06/02 18:05:53.789 [D]  send succ,pid:0,offset:150,topic:nginx_log
+
+2024/06/02 18:05:53.828 [D]  send succ,pid:0,offset:151,topic:nginx_log
+
+2024/06/02 18:05:53.889 [D]  send succ,pid:0,offset:152,topic:nginx_log
+
+2024/06/02 18:05:53.949 [D]  send succ,pid:0,offset:153,topic:nginx_log
+
+2024/06/02 18:05:54.010 [D]  send succ,pid:0,offset:154,topic:nginx_log
+
+2024/06/02 18:05:54.068 [D]  send succ,pid:0,offset:155,topic:nginx_log
+
+2024/06/02 18:05:54.109 [D]  send succ,pid:0,offset:156,topic:nginx_log
+
+2024/06/02 18:05:54.169 [D]  send succ,pid:0,offset:157,topic:nginx_log
+
+2024/06/02 18:05:54.231 [D]  send succ,pid:0,offset:158,topic:nginx_log
+
+2024/06/02 18:05:54.289 [D]  send succ,pid:0,offset:159,topic:nginx_log
+
+2024/06/02 18:05:54.349 [D]  send succ,pid:0,offset:160,topic:nginx_log
+
+2024/06/02 18:05:54.389 [D]  send succ,pid:0,offset:161,topic:nginx_log
+
+2024/06/02 18:05:54.443 [D]  send succ,pid:0,offset:162,topic:nginx_log
+
+2024/06/02 18:05:54.509 [D]  send succ,pid:0,offset:163,topic:nginx_log
+
+2024/06/02 18:05:54.570 [D]  send succ,pid:0,offset:164,topic:nginx_log
+
+2024/06/02 18:05:54.628 [D]  send succ,pid:0,offset:165,topic:nginx_log
+
+2024/06/02 18:05:54.688 [D]  send succ,pid:0,offset:166,topic:nginx_log
+
+2024/06/02 18:05:54.749 [D]  send succ,pid:0,offset:167,topic:nginx_log
+
+2024/06/02 18:05:54.809 [D]  send succ,pid:0,offset:168,topic:nginx_log
+
+2024/06/02 18:05:54.869 [D]  send succ,pid:0,offset:169,topic:nginx_log
+
+2024/06/02 18:05:54.929 [D]  send succ,pid:0,offset:170,topic:nginx_log
+
+2024/06/02 18:05:54.988 [D]  send succ,pid:0,offset:171,topic:nginx_log
+
+2024/06/02 18:05:55.050 [D]  send succ,pid:0,offset:172,topic:nginx_log
+
+2024/06/02 18:05:55.109 [D]  send succ,pid:0,offset:173,topic:nginx_log
+
+2024/06/02 18:05:55.169 [D]  send succ,pid:0,offset:174,topic:nginx_log
+
+2024/06/02 18:05:55.229 [D]  send succ,pid:0,offset:175,topic:nginx_log
+
+2024/06/02 18:05:55.269 [D]  send succ,pid:0,offset:176,topic:nginx_log
+
+2024/06/02 18:05:55.319 [D]  send succ,pid:0,offset:177,topic:nginx_log
+
+2024/06/02 18:05:55.379 [D]  send succ,pid:0,offset:178,topic:nginx_log
+
+2024/06/02 18:05:55.466 [D]  send succ,pid:0,offset:179,topic:nginx_log
+
+2024/06/02 18:05:55.529 [D]  send succ,pid:0,offset:180,topic:nginx_log
+
+2024/06/02 18:05:55.589 [D]  send succ,pid:0,offset:181,topic:nginx_log
+
+2024/06/02 18:05:55.659 [D]  send succ,pid:0,offset:182,topic:nginx_log
+
+2024/06/02 18:05:55.719 [D]  send succ,pid:0,offset:183,topic:nginx_log
+
+2024/06/02 18:05:55.779 [D]  send succ,pid:0,offset:184,topic:nginx_log
+
+2024/06/02 18:05:55.839 [D]  send succ,pid:0,offset:185,topic:nginx_log
+
+2024/06/02 18:05:55.901 [D]  send succ,pid:0,offset:186,topic:nginx_log
+
+2024/06/02 18:05:55.958 [D]  send succ,pid:0,offset:187,topic:nginx_log
+
+2024/06/02 18:05:56.020 [D]  send succ,pid:0,offset:188,topic:nginx_log
+
+2024/06/02 18:05:56.079 [D]  send succ,pid:0,offset:189,topic:nginx_log
+
+2024/06/02 18:05:56.139 [D]  send succ,pid:0,offset:190,topic:nginx_log
+
+2024/06/02 18:05:56.199 [D]  send succ,pid:0,offset:191,topic:nginx_log
+
+2024/06/02 18:05:56.259 [D]  send succ,pid:0,offset:192,topic:nginx_log
+
+2024/06/02 18:05:56.320 [D]  send succ,pid:0,offset:193,topic:nginx_log
+
+2024/06/02 18:05:56.381 [D]  send succ,pid:0,offset:194,topic:nginx_log
+
+2024/06/02 18:05:56.439 [D]  send succ,pid:0,offset:195,topic:nginx_log
+
+2024/06/02 18:05:56.510 [D]  send succ,pid:0,offset:196,topic:nginx_log
+
+2024/06/02 18:05:56.583 [D]  send succ,pid:0,offset:197,topic:nginx_log
+
+2024/06/02 18:05:56.653 [D]  send succ,pid:0,offset:198,topic:nginx_log
+
+2024/06/02 18:05:56.719 [D]  send succ,pid:0,offset:199,topic:nginx_log
+
+2024/06/02 18:05:56.779 [D]  send succ,pid:0,offset:200,topic:nginx_log
+
+2024/06/02 18:05:56.839 [D]  send succ,pid:0,offset:201,topic:nginx_log
+
+2024/06/02 18:05:56.899 [D]  send succ,pid:0,offset:202,topic:nginx_log
+
+2024/06/02 18:05:56.959 [D]  send succ,pid:0,offset:203,topic:nginx_log
+
+2024/06/02 18:05:57.019 [D]  send succ,pid:0,offset:204,topic:nginx_log
+
+2024/06/02 18:05:57.086 [D]  send succ,pid:0,offset:205,topic:nginx_log
+
+2024/06/02 18:05:57.149 [D]  send succ,pid:0,offset:206,topic:nginx_log
+
+2024/06/02 18:05:57.201 [D]  send succ,pid:0,offset:207,topic:nginx_log
+
+2024/06/02 18:05:57.259 [D]  send succ,pid:0,offset:208,topic:nginx_log
+
+2024/06/02 18:05:57.319 [D]  send succ,pid:0,offset:209,topic:nginx_log
+
+2024/06/02 18:05:57.380 [D]  send succ,pid:0,offset:210,topic:nginx_log
+
+2024/06/02 18:05:57.439 [D]  send succ,pid:0,offset:211,topic:nginx_log
+
+2024/06/02 18:05:57.499 [D]  send succ,pid:0,offset:212,topic:nginx_log
+
+2024/06/02 18:05:57.561 [D]  send succ,pid:0,offset:213,topic:nginx_log
+
+2024/06/02 18:05:57.619 [D]  send succ,pid:0,offset:214,topic:nginx_log
+
+2024/06/02 18:05:57.679 [D]  send succ,pid:0,offset:215,topic:nginx_log
+
+2024/06/02 18:05:57.739 [D]  send succ,pid:0,offset:216,topic:nginx_log
+
+2024/06/02 18:05:57.799 [D]  send succ,pid:0,offset:217,topic:nginx_log
+
+2024/06/02 18:05:57.859 [D]  send succ,pid:0,offset:218,topic:nginx_log
+
+2024/06/02 18:05:57.919 [D]  send succ,pid:0,offset:219,topic:nginx_log
+
+2024/06/02 18:05:57.988 [D]  send succ,pid:0,offset:220,topic:nginx_log
+
+2024/06/02 18:05:58.049 [D]  send succ,pid:0,offset:221,topic:nginx_log
+
+2024/06/02 18:05:58.108 [D]  send succ,pid:0,offset:222,topic:nginx_log
+
+2024/06/02 18:05:58.169 [D]  send succ,pid:0,offset:223,topic:nginx_log
+
+2024/06/02 18:05:58.229 [D]  send succ,pid:0,offset:224,topic:nginx_log
+
+2024/06/02 18:05:58.289 [D]  send succ,pid:0,offset:225,topic:nginx_log
+
+2024/06/02 18:05:58.349 [D]  send succ,pid:0,offset:226,topic:nginx_log
+
+2024/06/02 18:05:58.399 [D]  send succ,pid:0,offset:227,topic:nginx_log
+
+2024/06/02 18:05:58.459 [D]  send succ,pid:0,offset:228,topic:nginx_log
+
+2024/06/02 18:05:58.519 [D]  send succ,pid:0,offset:229,topic:nginx_log
+
+2024/06/02 18:05:58.579 [D]  send succ,pid:0,offset:230,topic:nginx_log
+
+2024/06/02 18:05:58.639 [D]  send succ,pid:0,offset:231,topic:nginx_log
+
+2024/06/02 18:05:58.698 [D]  send succ,pid:0,offset:232,topic:nginx_log
+
+2024/06/02 18:05:58.759 [D]  send succ,pid:0,offset:233,topic:nginx_log
+
+2024/06/02 18:05:58.819 [D]  send succ,pid:0,offset:234,topic:nginx_log
+
+2024/06/02 18:05:58.879 [D]  send succ,pid:0,offset:235,topic:nginx_log
+
+2024/06/02 18:05:58.941 [D]  send succ,pid:0,offset:236,topic:nginx_log
+
+2024/06/02 18:05:58.999 [D]  send succ,pid:0,offset:237,topic:nginx_log
+
+2024/06/02 18:05:59.059 [D]  send succ,pid:0,offset:238,topic:nginx_log
+
+2024/06/02 18:05:59.119 [D]  send succ,pid:0,offset:239,topic:nginx_log
+
+2024/06/02 18:05:59.179 [D]  send succ,pid:0,offset:240,topic:nginx_log
+
+2024/06/02 18:05:59.239 [D]  send succ,pid:0,offset:241,topic:nginx_log
+
+2024/06/02 18:05:59.301 [D]  send succ,pid:0,offset:242,topic:nginx_log
+
+2024/06/02 18:05:59.359 [D]  send succ,pid:0,offset:243,topic:nginx_log
+
+2024/06/02 18:05:59.419 [D]  send succ,pid:0,offset:244,topic:nginx_log
+
+2024/06/02 18:05:59.479 [D]  send succ,pid:0,offset:245,topic:nginx_log
+
+2024/06/02 18:05:59.539 [D]  send succ,pid:0,offset:246,topic:nginx_log
+
+2024/06/02 18:05:59.599 [D]  send succ,pid:0,offset:247,topic:nginx_log
+
+2024/06/02 18:05:59.659 [D]  send succ,pid:0,offset:248,topic:nginx_log
+
+2024/06/02 18:05:59.732 [D]  send succ,pid:0,offset:249,topic:nginx_log
+
+2024/06/02 18:05:59.801 [D]  send succ,pid:0,offset:250,topic:nginx_log
+
+2024/06/02 18:05:59.858 [D]  send succ,pid:0,offset:251,topic:nginx_log
+
+2024/06/02 18:05:59.921 [D]  send succ,pid:0,offset:252,topic:nginx_log
+
+2024/06/02 18:05:59.979 [D]  send succ,pid:0,offset:253,topic:nginx_log
+
+2024/06/02 18:06:00.039 [D]  send succ,pid:0,offset:254,topic:nginx_log
+
+2024/06/02 18:06:00.101 [D]  send succ,pid:0,offset:255,topic:nginx_log
+
+2024/06/02 18:06:00.164 [D]  send succ,pid:0,offset:256,topic:nginx_log
+
+2024/06/02 18:06:00.242 [D]  send succ,pid:0,offset:257,topic:nginx_log
+
+2024/06/02 18:06:00.312 [D]  send succ,pid:0,offset:258,topic:nginx_log
+
+2024/06/02 18:06:00.380 [D]  send succ,pid:0,offset:259,topic:nginx_log
+
+2024/06/02 18:06:00.439 [D]  send succ,pid:0,offset:260,topic:nginx_log
+
+2024/06/02 18:06:00.500 [D]  send succ,pid:0,offset:261,topic:nginx_log
+
+2024/06/02 18:06:00.559 [D]  send succ,pid:0,offset:262,topic:nginx_log
+
+2024/06/02 18:06:00.620 [D]  send succ,pid:0,offset:263,topic:nginx_log
+
+2024/06/02 18:06:00.684 [D]  send succ,pid:0,offset:264,topic:nginx_log
+
+2024/06/02 18:06:00.749 [D]  send succ,pid:0,offset:265,topic:nginx_log
+
+2024/06/02 18:06:00.809 [D]  send succ,pid:0,offset:266,topic:nginx_log
+
+2024/06/02 18:06:00.869 [D]  send succ,pid:0,offset:267,topic:nginx_log
+
+2024/06/02 18:06:00.929 [D]  send succ,pid:0,offset:268,topic:nginx_log
+
+2024/06/02 18:06:00.989 [D]  send succ,pid:0,offset:269,topic:nginx_log
+
+2024/06/02 18:06:01.049 [D]  send succ,pid:0,offset:270,topic:nginx_log
+
+2024/06/02 18:06:01.109 [D]  send succ,pid:0,offset:271,topic:nginx_log
+
+2024/06/02 18:06:01.169 [D]  send succ,pid:0,offset:272,topic:nginx_log
+
+2024/06/02 18:06:01.229 [D]  send succ,pid:0,offset:273,topic:nginx_log
+
+2024/06/02 18:06:01.289 [D]  send succ,pid:0,offset:274,topic:nginx_log
+
+2024/06/02 18:06:01.339 [D]  send succ,pid:0,offset:275,topic:nginx_log
+
+2024/06/02 18:06:01.399 [D]  send succ,pid:0,offset:276,topic:nginx_log
+
+2024/06/02 18:06:01.459 [D]  send succ,pid:0,offset:277,topic:nginx_log
+
+2024/06/02 18:06:01.519 [D]  send succ,pid:0,offset:278,topic:nginx_log
+
+2024/06/02 18:06:01.579 [D]  send succ,pid:0,offset:279,topic:nginx_log
+
+2024/06/02 18:06:01.639 [D]  send succ,pid:0,offset:280,topic:nginx_log
+
+2024/06/02 18:06:01.699 [D]  send succ,pid:0,offset:281,topic:nginx_log
+
+2024/06/02 18:06:01.770 [D]  send succ,pid:0,offset:282,topic:nginx_log
+
+2024/06/02 18:06:01.828 [D]  send succ,pid:0,offset:283,topic:nginx_log
+
+2024/06/02 18:06:01.890 [D]  send succ,pid:0,offset:284,topic:nginx_log
+
+2024/06/02 18:06:01.951 [D]  send succ,pid:0,offset:285,topic:nginx_log
+
+2024/06/02 18:06:02.010 [D]  send succ,pid:0,offset:286,topic:nginx_log
+
+2024/06/02 18:06:02.079 [D]  send succ,pid:0,offset:287,topic:nginx_log
+
+2024/06/02 18:06:02.086 [D]  send succ,pid:0,offset:288,topic:nginx_log
+
+2024/06/02 18:06:02.099 [D]  send succ,pid:0,offset:289,topic:nginx_log
+
+2024/06/02 18:06:02.139 [D]  send succ,pid:0,offset:290,topic:nginx_log
+
+2024/06/02 18:06:02.200 [D]  send succ,pid:0,offset:291,topic:nginx_log
+
+2024/06/02 18:06:02.259 [D]  send succ,pid:0,offset:292,topic:nginx_log
+
+2024/06/02 18:06:02.321 [D]  send succ,pid:0,offset:293,topic:nginx_log
+
+2024/06/02 18:06:02.379 [D]  send succ,pid:0,offset:294,topic:nginx_log
+
+2024/06/02 18:06:02.439 [D]  send succ,pid:0,offset:295,topic:nginx_log
+
+2024/06/02 18:06:02.489 [D]  send succ,pid:0,offset:296,topic:nginx_log
+
+2024/06/02 18:06:02.529 [D]  send succ,pid:0,offset:297,topic:nginx_log
+
+2024/06/02 18:06:02.569 [D]  send succ,pid:0,offset:298,topic:nginx_log
+
+2024/06/02 18:06:02.629 [D]  send succ,pid:0,offset:299,topic:nginx_log
+
+2024/06/02 18:06:02.689 [D]  send succ,pid:0,offset:300,topic:nginx_log
+
+2024/06/02 18:06:02.749 [D]  send succ,pid:0,offset:301,topic:nginx_log
+
+2024/06/02 18:06:02.809 [D]  send succ,pid:0,offset:302,topic:nginx_log
+
+2024/06/02 18:06:02.870 [D]  send succ,pid:0,offset:303,topic:nginx_log
+
+2024/06/02 18:06:02.939 [D]  send succ,pid:0,offset:304,topic:nginx_log
+
+2024/06/02 18:06:02.999 [D]  send succ,pid:0,offset:305,topic:nginx_log
+
+2024/06/02 18:06:03.059 [D]  send succ,pid:0,offset:306,topic:nginx_log
+
+2024/06/02 18:06:03.119 [D]  send succ,pid:0,offset:307,topic:nginx_log
+
+2024/06/02 18:06:03.180 [D]  send succ,pid:0,offset:308,topic:nginx_log
+
+2024/06/02 18:06:03.239 [D]  send succ,pid:0,offset:309,topic:nginx_log
+
+2024/06/02 18:06:03.279 [D]  send succ,pid:0,offset:310,topic:nginx_log
+
+2024/06/02 18:06:03.339 [D]  send succ,pid:0,offset:311,topic:nginx_log
+
+2024/06/02 18:06:03.399 [D]  send succ,pid:0,offset:312,topic:nginx_log
+
+2024/06/02 18:06:03.459 [D]  send succ,pid:0,offset:313,topic:nginx_log
+
+2024/06/02 18:06:03.519 [D]  send succ,pid:0,offset:314,topic:nginx_log
+
+2024/06/02 18:06:03.579 [D]  send succ,pid:0,offset:315,topic:nginx_log
+
+2024/06/02 18:06:03.639 [D]  send succ,pid:0,offset:316,topic:nginx_log
+
+2024/06/02 18:06:03.703 [D]  send succ,pid:0,offset:317,topic:nginx_log
+
+2024/06/02 18:06:03.769 [D]  send succ,pid:0,offset:318,topic:nginx_log
+
+2024/06/02 18:06:03.831 [D]  send succ,pid:0,offset:319,topic:nginx_log
+
+2024/06/02 18:06:03.889 [D]  send succ,pid:0,offset:320,topic:nginx_log
+
+2024/06/02 18:06:03.949 [D]  send succ,pid:0,offset:321,topic:nginx_log
+
+2024/06/02 18:06:04.009 [D]  send succ,pid:0,offset:322,topic:nginx_log
+
+2024/06/02 18:06:04.069 [D]  send succ,pid:0,offset:323,topic:nginx_log
+
+2024/06/02 18:06:04.119 [D]  send succ,pid:0,offset:324,topic:nginx_log
+
+2024/06/02 18:06:04.179 [D]  send succ,pid:0,offset:325,topic:nginx_log
+
+2024/06/02 18:06:04.239 [D]  send succ,pid:0,offset:326,topic:nginx_log
+
+2024/06/02 18:06:04.299 [D]  send succ,pid:0,offset:327,topic:nginx_log
+
+2024/06/02 18:06:04.359 [D]  send succ,pid:0,offset:328,topic:nginx_log
+
+2024/06/02 18:06:04.399 [D]  send succ,pid:0,offset:329,topic:nginx_log
+
+2024/06/02 18:06:04.459 [D]  send succ,pid:0,offset:330,topic:nginx_log
+
+2024/06/02 18:06:04.519 [D]  send succ,pid:0,offset:331,topic:nginx_log
+
+2024/06/02 18:06:04.579 [D]  send succ,pid:0,offset:332,topic:nginx_log
+
+2024/06/02 18:06:04.639 [D]  send succ,pid:0,offset:333,topic:nginx_log
+
+2024/06/02 18:06:04.699 [D]  send succ,pid:0,offset:334,topic:nginx_log
+
+2024/06/02 18:06:04.759 [D]  send succ,pid:0,offset:335,topic:nginx_log
+
+2024/06/02 18:06:04.819 [D]  send succ,pid:0,offset:336,topic:nginx_log
+
+2024/06/02 18:06:04.880 [D]  send succ,pid:0,offset:337,topic:nginx_log
+
+2024/06/02 18:06:04.939 [D]  send succ,pid:0,offset:338,topic:nginx_log
+
+2024/06/02 18:06:05.000 [D]  send succ,pid:0,offset:339,topic:nginx_log
+
+2024/06/02 18:06:05.058 [D]  send succ,pid:0,offset:340,topic:nginx_log
+
+2024/06/02 18:06:05.118 [D]  send succ,pid:0,offset:341,topic:nginx_log
+
+2024/06/02 18:06:05.179 [D]  send succ,pid:0,offset:342,topic:nginx_log
+
+2024/06/02 18:06:05.240 [D]  send succ,pid:0,offset:343,topic:nginx_log
+
+2024/06/02 18:06:05.290 [D]  send succ,pid:0,offset:344,topic:nginx_log
+
+2024/06/02 18:06:05.349 [D]  send succ,pid:0,offset:345,topic:nginx_log
+
+2024/06/02 18:06:05.409 [D]  send succ,pid:0,offset:346,topic:nginx_log
+
+2024/06/02 18:06:05.469 [D]  send succ,pid:0,offset:347,topic:nginx_log
+
+2024/06/02 18:06:05.529 [D]  send succ,pid:0,offset:348,topic:nginx_log
+
+2024/06/02 18:06:05.601 [D]  send succ,pid:0,offset:349,topic:nginx_log
+
+2024/06/02 18:06:05.660 [D]  send succ,pid:0,offset:350,topic:nginx_log
+
+2024/06/02 18:06:05.719 [D]  send succ,pid:0,offset:351,topic:nginx_log
+
+2024/06/02 18:06:05.779 [D]  send succ,pid:0,offset:352,topic:nginx_log
+
+2024/06/02 18:06:05.839 [D]  send succ,pid:0,offset:353,topic:nginx_log
+
+2024/06/02 18:06:05.899 [D]  send succ,pid:0,offset:354,topic:nginx_log
+
+2024/06/02 18:06:05.958 [D]  send succ,pid:0,offset:355,topic:nginx_log
+
+2024/06/02 18:06:06.019 [D]  send succ,pid:0,offset:356,topic:nginx_log
+
+2024/06/02 18:06:06.079 [D]  send succ,pid:0,offset:357,topic:nginx_log
+
+2024/06/02 18:06:06.139 [D]  send succ,pid:0,offset:358,topic:nginx_log
+
+2024/06/02 18:06:06.199 [D]  send succ,pid:0,offset:359,topic:nginx_log
+
+2024/06/02 18:06:06.259 [D]  send succ,pid:0,offset:360,topic:nginx_log
+
+2024/06/02 18:06:06.319 [D]  send succ,pid:0,offset:361,topic:nginx_log
+
+2024/06/02 18:06:06.379 [D]  send succ,pid:0,offset:362,topic:nginx_log
+
+2024/06/02 18:06:06.440 [D]  send succ,pid:0,offset:363,topic:nginx_log
+
+2024/06/02 18:06:06.499 [D]  send succ,pid:0,offset:364,topic:nginx_log
+
+2024/06/02 18:06:06.559 [D]  send succ,pid:0,offset:365,topic:nginx_log
+
+2024/06/02 18:06:06.622 [D]  send succ,pid:0,offset:366,topic:nginx_log
+
+2024/06/02 18:06:06.679 [D]  send succ,pid:0,offset:367,topic:nginx_log
+
+2024/06/02 18:06:06.739 [D]  send succ,pid:0,offset:368,topic:nginx_log
+
+2024/06/02 18:06:06.799 [D]  send succ,pid:0,offset:369,topic:nginx_log
+
+2024/06/02 18:06:06.860 [D]  send succ,pid:0,offset:370,topic:nginx_log
+
+2024/06/02 18:06:06.919 [D]  send succ,pid:0,offset:371,topic:nginx_log
+
+2024/06/02 18:06:06.979 [D]  send succ,pid:0,offset:372,topic:nginx_log
+
+2024/06/02 18:06:07.038 [D]  send succ,pid:0,offset:373,topic:nginx_log
+
+2024/06/02 18:06:07.099 [D]  send succ,pid:0,offset:374,topic:nginx_log
+
+2024/06/02 18:06:07.160 [D]  send succ,pid:0,offset:375,topic:nginx_log
+
+2024/06/02 18:06:07.218 [D]  send succ,pid:0,offset:376,topic:nginx_log
+
+2024/06/02 18:06:07.279 [D]  send succ,pid:0,offset:377,topic:nginx_log
+
+2024/06/02 18:06:07.339 [D]  send succ,pid:0,offset:378,topic:nginx_log
+
+2024/06/02 18:06:07.399 [D]  send succ,pid:0,offset:379,topic:nginx_log
+
+2024/06/02 18:06:07.460 [D]  send succ,pid:0,offset:380,topic:nginx_log
+
+2024/06/02 18:06:07.519 [D]  send succ,pid:0,offset:381,topic:nginx_log
+
+2024/06/02 18:06:07.579 [D]  send succ,pid:0,offset:382,topic:nginx_log
+
+2024/06/02 18:06:07.639 [D]  send succ,pid:0,offset:383,topic:nginx_log
+
+2024/06/02 18:06:07.699 [D]  send succ,pid:0,offset:384,topic:nginx_log
+
+2024/06/02 18:06:07.759 [D]  send succ,pid:0,offset:385,topic:nginx_log
+
+2024/06/02 18:06:07.819 [D]  send succ,pid:0,offset:386,topic:nginx_log
+
+2024/06/02 18:06:07.879 [D]  send succ,pid:0,offset:387,topic:nginx_log
+
+2024/06/02 18:06:07.939 [D]  send succ,pid:0,offset:388,topic:nginx_log
+
+2024/06/02 18:06:09.476 [D]  load conf success,config:&{debug ./logs/logagent.log 100 kafka:9092 [{./logs/logagent.log nginx_log}]}
+2024/06/02 18:06:09.579 [D]  kafka conection success
+2024/06/02 18:06:09.579 [D]  initialLi all success
+2024/06/02 18:06:09.659 [D]  send succ,pid:0,offset:390,topic:nginx_log
+
+2024/06/02 18:06:09.719 [D]  send succ,pid:0,offset:391,topic:nginx_log
+
+2024/06/02 18:06:09.779 [D]  send succ,pid:0,offset:392,topic:nginx_log
+
+2024/06/02 18:06:09.840 [D]  send succ,pid:0,offset:393,topic:nginx_log
+
+2024/06/02 18:06:09.899 [D]  send succ,pid:0,offset:394,topic:nginx_log
+
+2024/06/02 18:06:09.959 [D]  send succ,pid:0,offset:395,topic:nginx_log
+
+2024/06/02 18:06:10.019 [D]  send succ,pid:0,offset:396,topic:nginx_log
+
+2024/06/02 18:06:10.078 [D]  send succ,pid:0,offset:397,topic:nginx_log
+
+2024/06/02 18:06:10.139 [D]  send succ,pid:0,offset:398,topic:nginx_log
+
+2024/06/02 18:06:10.199 [D]  send succ,pid:0,offset:399,topic:nginx_log
+
+2024/06/02 18:06:10.267 [D]  send succ,pid:0,offset:400,topic:nginx_log
+
+2024/06/02 18:06:10.328 [D]  send succ,pid:0,offset:401,topic:nginx_log
+
+2024/06/02 18:06:10.389 [D]  send succ,pid:0,offset:402,topic:nginx_log
+
+2024/06/02 18:06:10.451 [D]  send succ,pid:0,offset:403,topic:nginx_log
+
+2024/06/02 18:06:10.509 [D]  send succ,pid:0,offset:404,topic:nginx_log
+
+2024/06/02 18:06:10.569 [D]  send succ,pid:0,offset:405,topic:nginx_log
+
+2024/06/02 18:06:10.629 [D]  send succ,pid:0,offset:406,topic:nginx_log
+
+2024/06/02 18:06:10.689 [D]  send succ,pid:0,offset:407,topic:nginx_log
+
+2024/06/02 18:06:10.749 [D]  send succ,pid:0,offset:408,topic:nginx_log
+
+2024/06/02 18:06:10.809 [D]  send succ,pid:0,offset:409,topic:nginx_log
+
+2024/06/02 18:06:10.868 [D]  send succ,pid:0,offset:410,topic:nginx_log
+
+2024/06/02 18:06:10.929 [D]  send succ,pid:0,offset:411,topic:nginx_log
+
+2024/06/02 18:06:10.989 [D]  send succ,pid:0,offset:412,topic:nginx_log
+
+2024/06/02 18:06:11.049 [D]  send succ,pid:0,offset:413,topic:nginx_log
+
+2024/06/02 18:06:11.109 [D]  send succ,pid:0,offset:414,topic:nginx_log
+
+2024/06/02 18:06:11.170 [D]  send succ,pid:0,offset:415,topic:nginx_log
+
+2024/06/02 18:06:11.229 [D]  send succ,pid:0,offset:416,topic:nginx_log
+
+2024/06/02 18:06:11.289 [D]  send succ,pid:0,offset:417,topic:nginx_log
+
+2024/06/02 18:06:11.349 [D]  send succ,pid:0,offset:418,topic:nginx_log
+
+2024/06/02 18:06:11.409 [D]  send succ,pid:0,offset:419,topic:nginx_log
+
+2024/06/02 18:06:11.469 [D]  send succ,pid:0,offset:420,topic:nginx_log
+
+2024/06/02 18:06:11.529 [D]  send succ,pid:0,offset:421,topic:nginx_log
+
+2024/06/02 18:06:11.588 [D]  send succ,pid:0,offset:422,topic:nginx_log
+
+2024/06/02 18:06:11.649 [D]  send succ,pid:0,offset:423,topic:nginx_log
+
+2024/06/02 18:06:11.709 [D]  send succ,pid:0,offset:424,topic:nginx_log
+
+2024/06/02 18:06:11.769 [D]  send succ,pid:0,offset:425,topic:nginx_log
+
+2024/06/02 18:06:11.829 [D]  send succ,pid:0,offset:426,topic:nginx_log
+
+2024/06/02 18:06:11.889 [D]  send succ,pid:0,offset:427,topic:nginx_log
+
+2024/06/02 18:06:11.949 [D]  send succ,pid:0,offset:428,topic:nginx_log
+
+2024/06/02 18:06:12.009 [D]  send succ,pid:0,offset:429,topic:nginx_log
+
+2024/06/02 18:06:12.069 [D]  send succ,pid:0,offset:430,topic:nginx_log
+
+2024/06/02 18:06:12.130 [D]  send succ,pid:0,offset:431,topic:nginx_log
+
+2024/06/02 18:06:12.191 [D]  send succ,pid:0,offset:432,topic:nginx_log
+
+2024/06/02 18:06:12.249 [D]  send succ,pid:0,offset:433,topic:nginx_log
+
+2024/06/02 18:06:12.309 [D]  send succ,pid:0,offset:434,topic:nginx_log
+
+2024/06/02 18:06:12.368 [D]  send succ,pid:0,offset:435,topic:nginx_log
+
+2024/06/02 18:06:12.428 [D]  send succ,pid:0,offset:436,topic:nginx_log
+
+2024/06/02 18:06:12.489 [D]  send succ,pid:0,offset:437,topic:nginx_log
+
+2024/06/02 18:06:12.548 [D]  send succ,pid:0,offset:438,topic:nginx_log
+
+2024/06/02 18:06:12.609 [D]  send succ,pid:0,offset:439,topic:nginx_log
+
+2024/06/02 18:06:12.668 [D]  send succ,pid:0,offset:440,topic:nginx_log
+
+2024/06/02 18:06:12.729 [D]  send succ,pid:0,offset:441,topic:nginx_log
+
+2024/06/02 18:06:12.789 [D]  send succ,pid:0,offset:442,topic:nginx_log
+
+2024/06/02 18:06:12.849 [D]  send succ,pid:0,offset:443,topic:nginx_log
+
+2024/06/02 18:06:12.909 [D]  send succ,pid:0,offset:444,topic:nginx_log
+
+2024/06/02 18:06:12.970 [D]  send succ,pid:0,offset:445,topic:nginx_log
+
+2024/06/02 18:06:13.029 [D]  send succ,pid:0,offset:446,topic:nginx_log
+
+2024/06/02 18:06:13.089 [D]  send succ,pid:0,offset:447,topic:nginx_log
+
+2024/06/02 18:06:13.149 [D]  send succ,pid:0,offset:448,topic:nginx_log
+
+2024/06/02 18:06:13.209 [D]  send succ,pid:0,offset:449,topic:nginx_log
+
+2024/06/02 18:06:13.269 [D]  send succ,pid:0,offset:450,topic:nginx_log
+
+2024/06/02 18:06:13.328 [D]  send succ,pid:0,offset:451,topic:nginx_log
+
+2024/06/02 18:06:13.389 [D]  send succ,pid:0,offset:452,topic:nginx_log
+
+2024/06/02 18:06:13.449 [D]  send succ,pid:0,offset:453,topic:nginx_log
+
+2024/06/02 18:06:13.509 [D]  send succ,pid:0,offset:454,topic:nginx_log
+
+2024/06/02 18:06:13.569 [D]  send succ,pid:0,offset:455,topic:nginx_log
+
+2024/06/02 18:06:13.629 [D]  send succ,pid:0,offset:456,topic:nginx_log
+
+2024/06/02 18:06:13.689 [D]  send succ,pid:0,offset:457,topic:nginx_log
+
+2024/06/02 18:06:13.749 [D]  send succ,pid:0,offset:458,topic:nginx_log
+
+2024/06/02 18:06:13.809 [D]  send succ,pid:0,offset:459,topic:nginx_log
+
+2024/06/02 18:06:13.869 [D]  send succ,pid:0,offset:460,topic:nginx_log
+
+2024/06/02 18:06:13.929 [D]  send succ,pid:0,offset:461,topic:nginx_log
+
+2024/06/02 18:06:13.989 [D]  send succ,pid:0,offset:462,topic:nginx_log
+
+2024/06/02 18:06:14.049 [D]  send succ,pid:0,offset:463,topic:nginx_log
+
+2024/06/02 18:06:14.111 [D]  send succ,pid:0,offset:464,topic:nginx_log
+
+2024/06/02 18:06:14.168 [D]  send succ,pid:0,offset:465,topic:nginx_log
+
+2024/06/02 18:06:14.230 [D]  send succ,pid:0,offset:466,topic:nginx_log
+
+2024/06/02 18:06:14.290 [D]  send succ,pid:0,offset:467,topic:nginx_log
+
+2024/06/02 18:06:14.349 [D]  send succ,pid:0,offset:468,topic:nginx_log
+
+2024/06/02 18:06:14.409 [D]  send succ,pid:0,offset:469,topic:nginx_log
+
+2024/06/02 18:06:14.470 [D]  send succ,pid:0,offset:470,topic:nginx_log
+
+2024/06/02 18:06:14.529 [D]  send succ,pid:0,offset:471,topic:nginx_log
+
+2024/06/02 18:06:14.589 [D]  send succ,pid:0,offset:472,topic:nginx_log
+
+2024/06/02 18:06:14.649 [D]  send succ,pid:0,offset:473,topic:nginx_log
+
+2024/06/02 18:06:14.712 [D]  send succ,pid:0,offset:474,topic:nginx_log
+
+2024/06/02 18:06:14.769 [D]  send succ,pid:0,offset:475,topic:nginx_log
+
+2024/06/02 18:06:14.829 [D]  send succ,pid:0,offset:476,topic:nginx_log
+
+2024/06/02 18:06:14.889 [D]  send succ,pid:0,offset:477,topic:nginx_log
+
+2024/06/02 18:06:14.949 [D]  send succ,pid:0,offset:478,topic:nginx_log
+
+2024/06/02 18:06:15.009 [D]  send succ,pid:0,offset:479,topic:nginx_log
+
+2024/06/02 18:06:15.069 [D]  send succ,pid:0,offset:480,topic:nginx_log
+
+2024/06/02 18:06:15.109 [D]  send succ,pid:0,offset:481,topic:nginx_log
+
+2024/06/02 18:06:15.149 [D]  send succ,pid:0,offset:482,topic:nginx_log
+
+2024/06/02 18:06:15.209 [D]  send succ,pid:0,offset:483,topic:nginx_log
+
+2024/06/02 18:06:15.271 [D]  send succ,pid:0,offset:484,topic:nginx_log
+
+2024/06/02 18:06:15.329 [D]  send succ,pid:0,offset:485,topic:nginx_log
+
+2024/06/02 18:06:15.389 [D]  send succ,pid:0,offset:486,topic:nginx_log
+
+2024/06/02 18:06:15.449 [D]  send succ,pid:0,offset:487,topic:nginx_log
+
+2024/06/02 18:06:15.509 [D]  send succ,pid:0,offset:488,topic:nginx_log
+
+2024/06/02 18:06:15.570 [D]  send succ,pid:0,offset:489,topic:nginx_log
+
+2024/06/02 18:06:15.629 [D]  send succ,pid:0,offset:490,topic:nginx_log
+
+2024/06/02 18:06:15.689 [D]  send succ,pid:0,offset:491,topic:nginx_log
+
+2024/06/02 18:06:15.749 [D]  send succ,pid:0,offset:492,topic:nginx_log
+
+2024/06/02 18:06:15.809 [D]  send succ,pid:0,offset:493,topic:nginx_log
+
+2024/06/02 18:06:15.868 [D]  send succ,pid:0,offset:494,topic:nginx_log
+
+2024/06/02 18:06:15.934 [D]  send succ,pid:0,offset:495,topic:nginx_log
+
+2024/06/02 18:06:15.999 [D]  send succ,pid:0,offset:496,topic:nginx_log
+
+2024/06/02 18:06:16.058 [D]  send succ,pid:0,offset:497,topic:nginx_log
+
+2024/06/02 18:06:16.121 [D]  send succ,pid:0,offset:498,topic:nginx_log
+
+2024/06/02 18:06:16.179 [D]  send succ,pid:0,offset:499,topic:nginx_log
+
+2024/06/02 18:06:16.239 [D]  send succ,pid:0,offset:500,topic:nginx_log
+
+2024/06/02 18:06:16.309 [D]  send succ,pid:0,offset:501,topic:nginx_log
+
+2024/06/02 18:06:16.349 [D]  send succ,pid:0,offset:502,topic:nginx_log
+
+2024/06/02 18:06:16.409 [D]  send succ,pid:0,offset:503,topic:nginx_log
+
+2024/06/02 18:06:16.469 [D]  send succ,pid:0,offset:504,topic:nginx_log
+
+2024/06/02 18:06:16.529 [D]  send succ,pid:0,offset:505,topic:nginx_log
+
+2024/06/02 18:06:16.589 [D]  send succ,pid:0,offset:506,topic:nginx_log
+
+2024/06/02 18:06:16.648 [D]  send succ,pid:0,offset:507,topic:nginx_log
+
+2024/06/02 18:06:16.709 [D]  send succ,pid:0,offset:508,topic:nginx_log
+
+2024/06/02 18:06:16.769 [D]  send succ,pid:0,offset:509,topic:nginx_log
+
+2024/06/02 18:06:16.829 [D]  send succ,pid:0,offset:510,topic:nginx_log
+
+2024/06/02 18:06:16.888 [D]  send succ,pid:0,offset:511,topic:nginx_log
+
+2024/06/02 18:06:16.949 [D]  send succ,pid:0,offset:512,topic:nginx_log
+
+2024/06/02 18:06:17.008 [D]  send succ,pid:0,offset:513,topic:nginx_log
+
+2024/06/02 18:06:17.069 [D]  send succ,pid:0,offset:514,topic:nginx_log
+
+2024/06/02 18:06:17.129 [D]  send succ,pid:0,offset:515,topic:nginx_log
+
+2024/06/02 18:06:17.189 [D]  send succ,pid:0,offset:516,topic:nginx_log
+
+2024/06/02 18:06:17.249 [D]  send succ,pid:0,offset:517,topic:nginx_log
+
+2024/06/02 18:06:17.311 [D]  send succ,pid:0,offset:518,topic:nginx_log
+
+2024/06/02 18:06:17.369 [D]  send succ,pid:0,offset:519,topic:nginx_log
+
+2024/06/02 18:06:17.430 [D]  send succ,pid:0,offset:520,topic:nginx_log
+
+2024/06/02 18:06:17.489 [D]  send succ,pid:0,offset:521,topic:nginx_log
+
+2024/06/02 18:06:17.548 [D]  send succ,pid:0,offset:522,topic:nginx_log
+
+2024/06/02 18:06:17.610 [D]  send succ,pid:0,offset:523,topic:nginx_log
+
+2024/06/02 18:06:17.680 [D]  send succ,pid:0,offset:524,topic:nginx_log
+
+2024/06/02 18:06:17.739 [D]  send succ,pid:0,offset:525,topic:nginx_log
+
+2024/06/02 18:06:17.799 [D]  send succ,pid:0,offset:526,topic:nginx_log
+
+2024/06/02 18:06:17.859 [D]  send succ,pid:0,offset:527,topic:nginx_log
+
+2024/06/02 18:06:17.918 [D]  send succ,pid:0,offset:528,topic:nginx_log
+
+2024/06/02 18:06:17.979 [D]  send succ,pid:0,offset:529,topic:nginx_log
+
+2024/06/02 18:06:18.041 [D]  send succ,pid:0,offset:530,topic:nginx_log
+
+2024/06/02 18:06:18.090 [D]  send succ,pid:0,offset:531,topic:nginx_log
+
+2024/06/02 18:06:18.141 [D]  send succ,pid:0,offset:532,topic:nginx_log
+
+2024/06/02 18:06:18.189 [D]  send succ,pid:0,offset:533,topic:nginx_log
+
+2024/06/02 18:06:18.249 [D]  send succ,pid:0,offset:534,topic:nginx_log
+
+2024/06/02 18:06:18.309 [D]  send succ,pid:0,offset:535,topic:nginx_log
+
+2024/06/02 18:06:18.369 [D]  send succ,pid:0,offset:536,topic:nginx_log
+
+2024/06/02 18:06:18.429 [D]  send succ,pid:0,offset:537,topic:nginx_log
+
+2024/06/02 18:06:18.489 [D]  send succ,pid:0,offset:538,topic:nginx_log
+
+2024/06/02 18:06:18.549 [D]  send succ,pid:0,offset:539,topic:nginx_log
+
+2024/06/02 18:06:18.609 [D]  send succ,pid:0,offset:540,topic:nginx_log
+
+2024/06/02 18:06:18.669 [D]  send succ,pid:0,offset:541,topic:nginx_log
+
+2024/06/02 18:06:18.729 [D]  send succ,pid:0,offset:542,topic:nginx_log
+
+2024/06/02 18:06:18.791 [D]  send succ,pid:0,offset:543,topic:nginx_log
+
+2024/06/02 18:06:18.848 [D]  send succ,pid:0,offset:544,topic:nginx_log
+
+2024/06/02 18:06:18.909 [D]  send succ,pid:0,offset:545,topic:nginx_log
+
+2024/06/02 18:06:18.969 [D]  send succ,pid:0,offset:546,topic:nginx_log
+
+2024/06/02 18:06:19.028 [D]  send succ,pid:0,offset:547,topic:nginx_log
+
+2024/06/02 18:06:19.088 [D]  send succ,pid:0,offset:548,topic:nginx_log
+
+2024/06/02 18:06:19.149 [D]  send succ,pid:0,offset:549,topic:nginx_log
+
+2024/06/02 18:06:19.209 [D]  send succ,pid:0,offset:550,topic:nginx_log
+
+2024/06/02 18:06:19.268 [D]  send succ,pid:0,offset:551,topic:nginx_log
+
+2024/06/02 18:06:19.337 [D]  send succ,pid:0,offset:552,topic:nginx_log
+
+2024/06/02 18:06:19.399 [D]  send succ,pid:0,offset:553,topic:nginx_log
+
+2024/06/02 18:06:19.459 [D]  send succ,pid:0,offset:554,topic:nginx_log
+
+2024/06/02 18:06:19.519 [D]  send succ,pid:0,offset:555,topic:nginx_log
+
+2024/06/02 18:06:19.579 [D]  send succ,pid:0,offset:556,topic:nginx_log
+
+2024/06/02 18:06:19.639 [D]  send succ,pid:0,offset:557,topic:nginx_log
+
+2024/06/02 18:06:19.699 [D]  send succ,pid:0,offset:558,topic:nginx_log
+
+2024/06/02 18:06:19.758 [D]  send succ,pid:0,offset:559,topic:nginx_log
+
+2024/06/02 18:06:19.819 [D]  send succ,pid:0,offset:560,topic:nginx_log
+
+2024/06/02 18:06:19.879 [D]  send succ,pid:0,offset:561,topic:nginx_log
+
+2024/06/02 18:06:19.939 [D]  send succ,pid:0,offset:562,topic:nginx_log
+
+2024/06/02 18:06:19.999 [D]  send succ,pid:0,offset:563,topic:nginx_log
+
+2024/06/02 18:06:20.059 [D]  send succ,pid:0,offset:564,topic:nginx_log
+
+2024/06/02 18:06:20.119 [D]  send succ,pid:0,offset:565,topic:nginx_log
+
+2024/06/02 18:06:20.179 [D]  send succ,pid:0,offset:566,topic:nginx_log
+
+2024/06/02 18:06:20.241 [D]  send succ,pid:0,offset:567,topic:nginx_log
+
+2024/06/02 18:06:20.299 [D]  send succ,pid:0,offset:568,topic:nginx_log
+
+2024/06/02 18:06:20.359 [D]  send succ,pid:0,offset:569,topic:nginx_log
+
+2024/06/02 18:06:20.418 [D]  send succ,pid:0,offset:570,topic:nginx_log
+
+2024/06/02 18:06:20.479 [D]  send succ,pid:0,offset:571,topic:nginx_log
+
+2024/06/02 18:06:20.539 [D]  send succ,pid:0,offset:572,topic:nginx_log
+
+2024/06/02 18:06:20.601 [D]  send succ,pid:0,offset:573,topic:nginx_log
+
+2024/06/02 18:06:20.659 [D]  send succ,pid:0,offset:574,topic:nginx_log
+
+2024/06/02 18:06:20.719 [D]  send succ,pid:0,offset:575,topic:nginx_log
+
+2024/06/02 18:06:20.789 [D]  send succ,pid:0,offset:576,topic:nginx_log
+
+2024/06/02 18:06:20.849 [D]  send succ,pid:0,offset:577,topic:nginx_log
+
+2024/06/02 18:06:20.909 [D]  send succ,pid:0,offset:578,topic:nginx_log
+
+2024/06/02 18:06:20.969 [D]  send succ,pid:0,offset:579,topic:nginx_log
+
+2024/06/02 18:06:21.029 [D]  send succ,pid:0,offset:580,topic:nginx_log
+
+2024/06/02 18:06:21.089 [D]  send succ,pid:0,offset:581,topic:nginx_log
+
+2024/06/02 18:06:21.149 [D]  send succ,pid:0,offset:582,topic:nginx_log
+
+2024/06/02 18:06:21.209 [D]  send succ,pid:0,offset:583,topic:nginx_log
+
+2024/06/02 18:06:21.270 [D]  send succ,pid:0,offset:584,topic:nginx_log
+
+2024/06/02 18:06:21.329 [D]  send succ,pid:0,offset:585,topic:nginx_log
+
+2024/06/02 18:06:21.388 [D]  send succ,pid:0,offset:586,topic:nginx_log
+
+2024/06/02 18:06:21.448 [D]  send succ,pid:0,offset:587,topic:nginx_log
+
+2024/06/02 18:06:21.512 [D]  send succ,pid:0,offset:588,topic:nginx_log
+
+2024/06/02 18:06:21.568 [D]  send succ,pid:0,offset:589,topic:nginx_log
+
+2024/06/02 18:06:21.639 [D]  send succ,pid:0,offset:590,topic:nginx_log
+
+2024/06/02 18:06:21.699 [D]  send succ,pid:0,offset:591,topic:nginx_log
+
+2024/06/02 18:06:21.759 [D]  send succ,pid:0,offset:592,topic:nginx_log
+
+2024/06/02 18:06:21.818 [D]  send succ,pid:0,offset:593,topic:nginx_log
+
+2024/06/02 18:06:21.882 [D]  send succ,pid:0,offset:594,topic:nginx_log
+
+2024/06/02 18:06:21.949 [D]  send succ,pid:0,offset:595,topic:nginx_log
+
+2024/06/02 18:06:22.008 [D]  send succ,pid:0,offset:596,topic:nginx_log
+
+2024/06/02 18:06:22.069 [D]  send succ,pid:0,offset:597,topic:nginx_log
+
+2024/06/02 18:06:22.129 [D]  send succ,pid:0,offset:598,topic:nginx_log
+
+2024/06/02 18:06:22.189 [D]  send succ,pid:0,offset:599,topic:nginx_log
+
+2024/06/02 18:06:22.249 [D]  send succ,pid:0,offset:600,topic:nginx_log
+
+2024/06/02 18:06:22.308 [D]  send succ,pid:0,offset:601,topic:nginx_log
+
+2024/06/02 18:06:22.368 [D]  send succ,pid:0,offset:602,topic:nginx_log
+
+2024/06/02 18:06:22.431 [D]  send succ,pid:0,offset:603,topic:nginx_log
+
+2024/06/02 18:06:22.489 [D]  send succ,pid:0,offset:604,topic:nginx_log
+
+2024/06/02 18:06:22.549 [D]  send succ,pid:0,offset:605,topic:nginx_log
+
+2024/06/02 18:06:22.609 [D]  send succ,pid:0,offset:606,topic:nginx_log
+
+2024/06/02 18:06:22.669 [D]  send succ,pid:0,offset:607,topic:nginx_log
+
+2024/06/02 18:06:22.730 [D]  send succ,pid:0,offset:608,topic:nginx_log
+
+2024/06/02 18:06:22.789 [D]  send succ,pid:0,offset:609,topic:nginx_log
+
+2024/06/02 18:06:22.849 [D]  send succ,pid:0,offset:610,topic:nginx_log
+
+2024/06/02 18:06:22.909 [D]  send succ,pid:0,offset:611,topic:nginx_log
+
+2024/06/02 18:06:22.969 [D]  send succ,pid:0,offset:612,topic:nginx_log
+
+2024/06/02 18:06:23.029 [D]  send succ,pid:0,offset:613,topic:nginx_log
+
+2024/06/02 18:06:23.088 [D]  send succ,pid:0,offset:614,topic:nginx_log
+
+2024/06/02 18:06:23.148 [D]  send succ,pid:0,offset:615,topic:nginx_log
+
+2024/06/02 18:06:23.210 [D]  send succ,pid:0,offset:616,topic:nginx_log
+
+2024/06/02 18:06:23.269 [D]  send succ,pid:0,offset:617,topic:nginx_log
+
+2024/06/02 18:06:23.329 [D]  send succ,pid:0,offset:618,topic:nginx_log
+
+2024/06/02 18:06:23.389 [D]  send succ,pid:0,offset:619,topic:nginx_log
+
+2024/06/02 18:06:23.448 [D]  send succ,pid:0,offset:620,topic:nginx_log
+
+2024/06/02 18:06:23.512 [D]  send succ,pid:0,offset:621,topic:nginx_log
+
+2024/06/02 18:06:23.570 [D]  send succ,pid:0,offset:622,topic:nginx_log
+
+2024/06/02 18:06:23.628 [D]  send succ,pid:0,offset:623,topic:nginx_log
+
+2024/06/02 18:06:23.689 [D]  send succ,pid:0,offset:624,topic:nginx_log
+
+2024/06/02 18:06:23.749 [D]  send succ,pid:0,offset:625,topic:nginx_log
+
+2024/06/02 18:06:23.809 [D]  send succ,pid:0,offset:626,topic:nginx_log
+
+2024/06/02 18:06:23.869 [D]  send succ,pid:0,offset:627,topic:nginx_log
+
+2024/06/02 18:06:23.929 [D]  send succ,pid:0,offset:628,topic:nginx_log
+
+2024/06/02 18:06:23.989 [D]  send succ,pid:0,offset:629,topic:nginx_log
+
+2024/06/02 18:06:24.049 [D]  send succ,pid:0,offset:630,topic:nginx_log
+
+2024/06/02 18:06:24.109 [D]  send succ,pid:0,offset:631,topic:nginx_log
+
+2024/06/02 18:06:24.168 [D]  send succ,pid:0,offset:632,topic:nginx_log
+
+2024/06/02 18:06:24.229 [D]  send succ,pid:0,offset:633,topic:nginx_log
+
+2024/06/02 18:06:24.289 [D]  send succ,pid:0,offset:634,topic:nginx_log
+
+2024/06/02 18:06:24.349 [D]  send succ,pid:0,offset:635,topic:nginx_log
+
+2024/06/02 18:06:24.409 [D]  send succ,pid:0,offset:636,topic:nginx_log
+
+2024/06/02 18:06:24.469 [D]  send succ,pid:0,offset:637,topic:nginx_log
+
+2024/06/02 18:06:24.528 [D]  send succ,pid:0,offset:638,topic:nginx_log
+
+2024/06/02 18:06:24.589 [D]  send succ,pid:0,offset:639,topic:nginx_log
+
+2024/06/02 18:06:24.629 [D]  send succ,pid:0,offset:640,topic:nginx_log
+
+2024/06/02 18:06:24.689 [D]  send succ,pid:0,offset:641,topic:nginx_log
+
+2024/06/02 18:06:24.748 [D]  send succ,pid:0,offset:642,topic:nginx_log
+
+2024/06/02 18:06:24.809 [D]  send succ,pid:0,offset:643,topic:nginx_log
+
+2024/06/02 18:06:24.869 [D]  send succ,pid:0,offset:644,topic:nginx_log
+
+2024/06/02 18:06:24.930 [D]  send succ,pid:0,offset:645,topic:nginx_log
+
+2024/06/02 18:06:24.992 [D]  send succ,pid:0,offset:646,topic:nginx_log
+
+2024/06/02 18:06:25.049 [D]  send succ,pid:0,offset:647,topic:nginx_log
+
+2024/06/02 18:06:25.109 [D]  send succ,pid:0,offset:648,topic:nginx_log
+
+2024/06/02 18:06:25.170 [D]  send succ,pid:0,offset:649,topic:nginx_log
+
+2024/06/02 18:06:25.228 [D]  send succ,pid:0,offset:650,topic:nginx_log
+
+2024/06/02 18:06:25.289 [D]  send succ,pid:0,offset:651,topic:nginx_log
+
+2024/06/02 18:06:25.349 [D]  send succ,pid:0,offset:652,topic:nginx_log
+
+2024/06/02 18:06:25.409 [D]  send succ,pid:0,offset:653,topic:nginx_log
+
+2024/06/02 18:06:25.469 [D]  send succ,pid:0,offset:654,topic:nginx_log
+
+2024/06/02 18:06:25.529 [D]  send succ,pid:0,offset:655,topic:nginx_log
+
+2024/06/02 18:06:25.589 [D]  send succ,pid:0,offset:656,topic:nginx_log
+
+2024/06/02 18:06:25.649 [D]  send succ,pid:0,offset:657,topic:nginx_log
+
+2024/06/02 18:06:25.709 [D]  send succ,pid:0,offset:658,topic:nginx_log
+
+2024/06/02 18:06:25.770 [D]  send succ,pid:0,offset:659,topic:nginx_log
+
+2024/06/02 18:06:25.829 [D]  send succ,pid:0,offset:660,topic:nginx_log
+
+2024/06/02 18:06:25.900 [D]  send succ,pid:0,offset:661,topic:nginx_log
+
+2024/06/02 18:06:25.959 [D]  send succ,pid:0,offset:662,topic:nginx_log
+
+2024/06/02 18:06:26.019 [D]  send succ,pid:0,offset:663,topic:nginx_log
+
+2024/06/02 18:06:26.079 [D]  send succ,pid:0,offset:664,topic:nginx_log
+
+2024/06/02 18:06:26.139 [D]  send succ,pid:0,offset:665,topic:nginx_log
+
+2024/06/02 18:06:26.199 [D]  send succ,pid:0,offset:666,topic:nginx_log
+
+2024/06/02 18:06:26.259 [D]  send succ,pid:0,offset:667,topic:nginx_log
+
+2024/06/02 18:06:26.319 [D]  send succ,pid:0,offset:668,topic:nginx_log
+
+2024/06/02 18:06:26.379 [D]  send succ,pid:0,offset:669,topic:nginx_log
+
+2024/06/02 18:06:26.439 [D]  send succ,pid:0,offset:670,topic:nginx_log
+
+2024/06/02 18:06:26.499 [D]  send succ,pid:0,offset:671,topic:nginx_log
+
+2024/06/02 18:06:26.560 [D]  send succ,pid:0,offset:672,topic:nginx_log
+
+2024/06/02 18:06:26.619 [D]  send succ,pid:0,offset:673,topic:nginx_log
+
+2024/06/02 18:06:26.679 [D]  send succ,pid:0,offset:674,topic:nginx_log
+
+2024/06/02 18:06:26.739 [D]  send succ,pid:0,offset:675,topic:nginx_log
+
+2024/06/02 18:06:26.799 [D]  send succ,pid:0,offset:676,topic:nginx_log
+
+2024/06/02 18:06:26.859 [D]  send succ,pid:0,offset:677,topic:nginx_log
+
+2024/06/02 18:06:26.919 [D]  send succ,pid:0,offset:678,topic:nginx_log
+
+2024/06/02 18:06:26.989 [D]  send succ,pid:0,offset:679,topic:nginx_log
+
+2024/06/02 18:06:27.049 [D]  send succ,pid:0,offset:680,topic:nginx_log
+
+2024/06/02 18:06:27.109 [D]  send succ,pid:0,offset:681,topic:nginx_log
+
+2024/06/02 18:06:27.169 [D]  send succ,pid:0,offset:682,topic:nginx_log
+
+2024/06/02 18:06:27.230 [D]  send succ,pid:0,offset:683,topic:nginx_log
+
+2024/06/02 18:06:27.290 [D]  send succ,pid:0,offset:684,topic:nginx_log
+
+2024/06/02 18:06:27.350 [D]  send succ,pid:0,offset:685,topic:nginx_log
+
+2024/06/02 18:06:27.412 [D]  send succ,pid:0,offset:686,topic:nginx_log
+
+2024/06/02 18:06:27.478 [D]  send succ,pid:0,offset:687,topic:nginx_log
+
+2024/06/02 18:06:27.538 [D]  send succ,pid:0,offset:688,topic:nginx_log
+
+2024/06/02 18:06:27.598 [D]  send succ,pid:0,offset:689,topic:nginx_log
+
+2024/06/02 18:06:27.658 [D]  send succ,pid:0,offset:690,topic:nginx_log
+
+2024/06/02 18:06:27.718 [D]  send succ,pid:0,offset:691,topic:nginx_log
+
+2024/06/02 18:06:27.778 [D]  send succ,pid:0,offset:692,topic:nginx_log
+
+2024/06/02 18:06:27.839 [D]  send succ,pid:0,offset:693,topic:nginx_log
+
+2024/06/02 18:06:27.898 [D]  send succ,pid:0,offset:694,topic:nginx_log
+
+2024/06/02 18:06:27.961 [D]  send succ,pid:0,offset:695,topic:nginx_log
+
+2024/06/02 18:06:28.018 [D]  send succ,pid:0,offset:696,topic:nginx_log
+
+2024/06/02 18:06:28.078 [D]  send succ,pid:0,offset:697,topic:nginx_log
+
+2024/06/02 18:06:28.138 [D]  send succ,pid:0,offset:698,topic:nginx_log
+
+2024/06/02 18:06:28.218 [D]  send succ,pid:0,offset:699,topic:nginx_log
+
+2024/06/02 18:06:28.280 [D]  send succ,pid:0,offset:700,topic:nginx_log
+
+2024/06/02 18:06:28.339 [D]  send succ,pid:0,offset:701,topic:nginx_log
+
+2024/06/02 18:06:28.399 [D]  send succ,pid:0,offset:702,topic:nginx_log
+
+2024/06/02 18:06:28.459 [D]  send succ,pid:0,offset:703,topic:nginx_log
+
+2024/06/02 18:06:28.519 [D]  send succ,pid:0,offset:704,topic:nginx_log
+
+2024/06/02 18:06:28.579 [D]  send succ,pid:0,offset:705,topic:nginx_log
+
+2024/06/02 18:06:28.639 [D]  send succ,pid:0,offset:706,topic:nginx_log
+
+2024/06/02 18:06:28.698 [D]  send succ,pid:0,offset:707,topic:nginx_log
+
+2024/06/02 18:06:28.758 [D]  send succ,pid:0,offset:708,topic:nginx_log
+
+2024/06/02 18:06:28.819 [D]  send succ,pid:0,offset:709,topic:nginx_log
+
+2024/06/02 18:06:28.878 [D]  send succ,pid:0,offset:710,topic:nginx_log
+
+2024/06/02 18:06:28.939 [D]  send succ,pid:0,offset:711,topic:nginx_log
+
+2024/06/02 18:06:28.999 [D]  send succ,pid:0,offset:712,topic:nginx_log
+
+2024/06/02 18:06:29.059 [D]  send succ,pid:0,offset:713,topic:nginx_log
+
+2024/06/02 18:06:29.119 [D]  send succ,pid:0,offset:714,topic:nginx_log
+
+2024/06/02 18:06:29.179 [D]  send succ,pid:0,offset:715,topic:nginx_log
+
+2024/06/02 18:06:29.239 [D]  send succ,pid:0,offset:716,topic:nginx_log
+
+2024/06/02 18:06:29.299 [D]  send succ,pid:0,offset:717,topic:nginx_log
+
+2024/06/02 18:06:29.359 [D]  send succ,pid:0,offset:718,topic:nginx_log
+
+2024/06/02 18:06:29.418 [D]  send succ,pid:0,offset:719,topic:nginx_log
+
+2024/06/02 18:06:29.479 [D]  send succ,pid:0,offset:720,topic:nginx_log
+
+2024/06/02 18:06:29.539 [D]  send succ,pid:0,offset:721,topic:nginx_log
+
+2024/06/02 18:06:29.599 [D]  send succ,pid:0,offset:722,topic:nginx_log
+
+2024/06/02 18:06:29.659 [D]  send succ,pid:0,offset:723,topic:nginx_log
+
+2024/06/02 18:06:29.720 [D]  send succ,pid:0,offset:724,topic:nginx_log
+
+2024/06/02 18:06:29.779 [D]  send succ,pid:0,offset:725,topic:nginx_log
+
+2024/06/02 18:06:29.839 [D]  send succ,pid:0,offset:726,topic:nginx_log
+
+2024/06/02 18:06:29.899 [D]  send succ,pid:0,offset:727,topic:nginx_log
+
+2024/06/02 18:06:29.959 [D]  send succ,pid:0,offset:728,topic:nginx_log
+
+2024/06/02 18:06:30.019 [D]  send succ,pid:0,offset:729,topic:nginx_log
+
+2024/06/02 18:06:30.089 [D]  send succ,pid:0,offset:730,topic:nginx_log
+
+2024/06/02 18:06:30.149 [D]  send succ,pid:0,offset:731,topic:nginx_log
+
+2024/06/02 18:06:30.199 [D]  send succ,pid:0,offset:732,topic:nginx_log
+
+2024/06/02 18:06:30.259 [D]  send succ,pid:0,offset:733,topic:nginx_log
+
+2024/06/02 18:06:30.319 [D]  send succ,pid:0,offset:734,topic:nginx_log
+
+2024/06/02 18:06:30.379 [D]  send succ,pid:0,offset:735,topic:nginx_log
+
+2024/06/02 18:06:30.439 [D]  send succ,pid:0,offset:736,topic:nginx_log
+
+2024/06/02 18:06:30.498 [D]  send succ,pid:0,offset:737,topic:nginx_log
+
+2024/06/02 18:06:30.558 [D]  send succ,pid:0,offset:738,topic:nginx_log
+
+2024/06/02 18:06:30.619 [D]  send succ,pid:0,offset:739,topic:nginx_log
+
+2024/06/02 18:06:30.678 [D]  send succ,pid:0,offset:740,topic:nginx_log
+
+2024/06/02 18:06:30.738 [D]  send succ,pid:0,offset:741,topic:nginx_log
+
+2024/06/02 18:06:30.799 [D]  send succ,pid:0,offset:742,topic:nginx_log
+
+2024/06/02 18:06:30.859 [D]  send succ,pid:0,offset:743,topic:nginx_log
+
+2024/06/02 18:06:30.919 [D]  send succ,pid:0,offset:744,topic:nginx_log
+
+2024/06/02 18:06:30.979 [D]  send succ,pid:0,offset:745,topic:nginx_log
+
+2024/06/02 18:06:31.039 [D]  send succ,pid:0,offset:746,topic:nginx_log
+
+2024/06/02 18:06:31.098 [D]  send succ,pid:0,offset:747,topic:nginx_log
+
+2024/06/02 18:06:31.158 [D]  send succ,pid:0,offset:748,topic:nginx_log
+
+2024/06/02 18:06:31.218 [D]  send succ,pid:0,offset:749,topic:nginx_log
+
+2024/06/02 18:06:31.279 [D]  send succ,pid:0,offset:750,topic:nginx_log
+
+2024/06/02 18:06:31.340 [D]  send succ,pid:0,offset:751,topic:nginx_log
+
+2024/06/02 18:06:31.399 [D]  send succ,pid:0,offset:752,topic:nginx_log
+
+2024/06/02 18:06:31.459 [D]  send succ,pid:0,offset:753,topic:nginx_log
+
+2024/06/02 18:06:31.519 [D]  send succ,pid:0,offset:754,topic:nginx_log
+
+2024/06/02 18:06:31.579 [D]  send succ,pid:0,offset:755,topic:nginx_log
+
+2024/06/02 18:06:31.639 [D]  send succ,pid:0,offset:756,topic:nginx_log
+
+2024/06/02 18:06:31.699 [D]  send succ,pid:0,offset:757,topic:nginx_log
+
+2024/06/02 18:06:31.759 [D]  send succ,pid:0,offset:758,topic:nginx_log
+
+2024/06/02 18:06:31.819 [D]  send succ,pid:0,offset:759,topic:nginx_log
+
+2024/06/02 18:06:31.879 [D]  send succ,pid:0,offset:760,topic:nginx_log
+
+2024/06/02 18:06:31.939 [D]  send succ,pid:0,offset:761,topic:nginx_log
+
+2024/06/02 18:06:31.999 [D]  send succ,pid:0,offset:762,topic:nginx_log
+
+2024/06/02 18:06:32.059 [D]  send succ,pid:0,offset:763,topic:nginx_log
+
+2024/06/02 18:06:32.119 [D]  send succ,pid:0,offset:764,topic:nginx_log
+
+2024/06/02 18:06:32.179 [D]  send succ,pid:0,offset:765,topic:nginx_log
+
+2024/06/02 18:06:32.219 [D]  send succ,pid:0,offset:766,topic:nginx_log
+
+2024/06/02 18:06:32.279 [D]  send succ,pid:0,offset:767,topic:nginx_log
+
+2024/06/02 18:06:32.339 [D]  send succ,pid:0,offset:768,topic:nginx_log
+
+2024/06/02 18:06:32.398 [D]  send succ,pid:0,offset:769,topic:nginx_log
+
+2024/06/02 18:06:32.459 [D]  send succ,pid:0,offset:770,topic:nginx_log
+
+2024/06/02 18:06:32.519 [D]  send succ,pid:0,offset:771,topic:nginx_log
+
+2024/06/02 18:06:32.560 [D]  send succ,pid:0,offset:772,topic:nginx_log
+
+2024/06/02 18:06:32.619 [D]  send succ,pid:0,offset:773,topic:nginx_log
+
+2024/06/02 18:06:32.678 [D]  send succ,pid:0,offset:774,topic:nginx_log
+
+2024/06/02 18:06:32.739 [D]  send succ,pid:0,offset:775,topic:nginx_log
+
+2024/06/02 18:06:32.798 [D]  send succ,pid:0,offset:776,topic:nginx_log
+
+2024/06/02 18:06:32.859 [D]  send succ,pid:0,offset:777,topic:nginx_log
+
+2024/06/02 18:06:32.919 [D]  send succ,pid:0,offset:778,topic:nginx_log
+
+2024/06/02 18:06:32.979 [D]  send succ,pid:0,offset:779,topic:nginx_log
+
+2024/06/02 18:06:33.040 [D]  send succ,pid:0,offset:780,topic:nginx_log
+
+2024/06/02 18:06:33.098 [D]  send succ,pid:0,offset:781,topic:nginx_log
+
+2024/06/02 18:06:33.149 [D]  send succ,pid:0,offset:782,topic:nginx_log
+
+2024/06/02 18:06:33.199 [D]  send succ,pid:0,offset:783,topic:nginx_log
+
+2024/06/02 18:06:33.239 [D]  send succ,pid:0,offset:784,topic:nginx_log
+
+2024/06/02 18:06:33.299 [D]  send succ,pid:0,offset:785,topic:nginx_log
+
+2024/06/02 18:06:33.359 [D]  send succ,pid:0,offset:786,topic:nginx_log
+
+2024/06/02 18:06:33.419 [D]  send succ,pid:0,offset:787,topic:nginx_log
+
+2024/06/02 18:06:33.479 [D]  send succ,pid:0,offset:788,topic:nginx_log
+
+2024/06/02 18:06:33.539 [D]  send succ,pid:0,offset:789,topic:nginx_log
+
+2024/06/02 18:06:33.579 [D]  send succ,pid:0,offset:790,topic:nginx_log
+
+2024/06/02 18:06:33.639 [D]  send succ,pid:0,offset:791,topic:nginx_log
+
+2024/06/02 18:06:33.699 [D]  send succ,pid:0,offset:792,topic:nginx_log
+
+2024/06/02 18:06:33.759 [D]  send succ,pid:0,offset:793,topic:nginx_log
+
+2024/06/02 18:06:33.818 [D]  send succ,pid:0,offset:794,topic:nginx_log
+
+2024/06/02 18:06:33.879 [D]  send succ,pid:0,offset:795,topic:nginx_log
+
+2024/06/02 18:06:33.939 [D]  send succ,pid:0,offset:796,topic:nginx_log
+
+2024/06/02 18:06:33.998 [D]  send succ,pid:0,offset:797,topic:nginx_log
+
+2024/06/02 18:06:34.049 [D]  send succ,pid:0,offset:798,topic:nginx_log
+
+2024/06/02 18:06:34.109 [D]  send succ,pid:0,offset:799,topic:nginx_log
+
+2024/06/02 18:06:34.169 [D]  send succ,pid:0,offset:800,topic:nginx_log
+
+2024/06/02 18:06:34.229 [D]  send succ,pid:0,offset:801,topic:nginx_log
+
+2024/06/02 18:06:34.289 [D]  send succ,pid:0,offset:802,topic:nginx_log
+
+2024/06/02 18:06:34.349 [D]  send succ,pid:0,offset:803,topic:nginx_log
+
+2024/06/02 18:06:34.409 [D]  send succ,pid:0,offset:804,topic:nginx_log
+
+2024/06/02 18:06:34.469 [D]  send succ,pid:0,offset:805,topic:nginx_log
+
+2024/06/02 18:06:34.529 [D]  send succ,pid:0,offset:806,topic:nginx_log
+
+2024/06/02 18:06:34.589 [D]  send succ,pid:0,offset:807,topic:nginx_log
+
+2024/06/02 18:06:34.649 [D]  send succ,pid:0,offset:808,topic:nginx_log
+
+2024/06/02 18:06:34.710 [D]  send succ,pid:0,offset:809,topic:nginx_log
+
+2024/06/02 18:06:34.770 [D]  send succ,pid:0,offset:810,topic:nginx_log
+
+2024/06/02 18:06:34.829 [D]  send succ,pid:0,offset:811,topic:nginx_log
+
+2024/06/02 18:06:34.889 [D]  send succ,pid:0,offset:812,topic:nginx_log
+
+2024/06/02 18:06:34.949 [D]  send succ,pid:0,offset:813,topic:nginx_log
+
+2024/06/02 18:06:35.009 [D]  send succ,pid:0,offset:814,topic:nginx_log
+
+2024/06/02 18:06:35.059 [D]  send succ,pid:0,offset:815,topic:nginx_log
+
+2024/06/02 18:06:35.119 [D]  send succ,pid:0,offset:816,topic:nginx_log
+
+2024/06/02 18:06:35.179 [D]  send succ,pid:0,offset:817,topic:nginx_log
+
+2024/06/02 18:06:35.239 [D]  send succ,pid:0,offset:818,topic:nginx_log
+
+2024/06/02 18:06:35.299 [D]  send succ,pid:0,offset:819,topic:nginx_log
+
+2024/06/02 18:06:35.359 [D]  send succ,pid:0,offset:820,topic:nginx_log
+
+2024/06/02 18:06:35.419 [D]  send succ,pid:0,offset:821,topic:nginx_log
+
+2024/06/02 18:06:35.479 [D]  send succ,pid:0,offset:822,topic:nginx_log
+
+2024/06/02 18:06:35.539 [D]  send succ,pid:0,offset:823,topic:nginx_log
+
+2024/06/02 18:06:35.601 [D]  send succ,pid:0,offset:824,topic:nginx_log
+
+2024/06/02 18:06:35.659 [D]  send succ,pid:0,offset:825,topic:nginx_log
+
+2024/06/02 18:06:35.719 [D]  send succ,pid:0,offset:826,topic:nginx_log
+
+2024/06/02 18:06:35.779 [D]  send succ,pid:0,offset:827,topic:nginx_log
+
+2024/06/02 18:06:35.839 [D]  send succ,pid:0,offset:828,topic:nginx_log
+
+2024/06/02 18:06:35.898 [D]  send succ,pid:0,offset:829,topic:nginx_log
+
+2024/06/02 18:06:35.961 [D]  send succ,pid:0,offset:830,topic:nginx_log
+
+2024/06/02 18:06:36.010 [D]  send succ,pid:0,offset:831,topic:nginx_log
+
+2024/06/02 18:06:36.069 [D]  send succ,pid:0,offset:832,topic:nginx_log
+
+2024/06/02 18:06:36.129 [D]  send succ,pid:0,offset:833,topic:nginx_log
+
+2024/06/02 18:06:36.189 [D]  send succ,pid:0,offset:834,topic:nginx_log
+
+2024/06/02 18:06:36.249 [D]  send succ,pid:0,offset:835,topic:nginx_log
+
+2024/06/02 18:06:36.309 [D]  send succ,pid:0,offset:836,topic:nginx_log
+
+2024/06/02 18:06:36.371 [D]  send succ,pid:0,offset:837,topic:nginx_log
+
+2024/06/02 18:06:36.420 [D]  send succ,pid:0,offset:838,topic:nginx_log
+
+2024/06/02 18:06:36.479 [D]  send succ,pid:0,offset:839,topic:nginx_log
+
+2024/06/02 18:06:36.539 [D]  send succ,pid:0,offset:840,topic:nginx_log
+
+2024/06/02 18:06:36.599 [D]  send succ,pid:0,offset:841,topic:nginx_log
+
+2024/06/02 18:06:36.659 [D]  send succ,pid:0,offset:842,topic:nginx_log
+
+2024/06/02 18:06:36.718 [D]  send succ,pid:0,offset:843,topic:nginx_log
+
+2024/06/02 18:06:36.779 [D]  send succ,pid:0,offset:844,topic:nginx_log
+
+2024/06/02 18:06:36.839 [D]  send succ,pid:0,offset:845,topic:nginx_log
+
+2024/06/02 18:06:36.899 [D]  send succ,pid:0,offset:846,topic:nginx_log
+
+2024/06/02 18:06:36.959 [D]  send succ,pid:0,offset:847,topic:nginx_log
+
+2024/06/02 18:06:37.019 [D]  send succ,pid:0,offset:848,topic:nginx_log
+
+2024/06/02 18:06:37.079 [D]  send succ,pid:0,offset:849,topic:nginx_log
+
+2024/06/02 18:06:37.139 [D]  send succ,pid:0,offset:850,topic:nginx_log
+
+2024/06/02 18:06:37.199 [D]  send succ,pid:0,offset:851,topic:nginx_log
+
+2024/06/02 18:06:37.249 [D]  send succ,pid:0,offset:852,topic:nginx_log
+
+2024/06/02 18:06:37.318 [D]  send succ,pid:0,offset:853,topic:nginx_log
+
+2024/06/02 18:06:37.369 [D]  send succ,pid:0,offset:854,topic:nginx_log
+
+2024/06/02 18:06:37.418 [D]  send succ,pid:0,offset:855,topic:nginx_log
+
+2024/06/02 18:06:37.478 [D]  send succ,pid:0,offset:856,topic:nginx_log
+
+2024/06/02 18:06:37.539 [D]  send succ,pid:0,offset:857,topic:nginx_log
+
+2024/06/02 18:06:37.599 [D]  send succ,pid:0,offset:858,topic:nginx_log
+
+2024/06/02 18:06:37.659 [D]  send succ,pid:0,offset:859,topic:nginx_log
+
+2024/06/02 18:06:37.719 [D]  send succ,pid:0,offset:860,topic:nginx_log
+
+2024/06/02 18:06:37.779 [D]  send succ,pid:0,offset:861,topic:nginx_log
+
+2024/06/02 18:06:37.839 [D]  send succ,pid:0,offset:862,topic:nginx_log
+
+2024/06/02 18:06:37.898 [D]  send succ,pid:0,offset:863,topic:nginx_log
+
+2024/06/02 18:06:37.958 [D]  send succ,pid:0,offset:864,topic:nginx_log
+
+2024/06/02 18:06:38.018 [D]  send succ,pid:0,offset:865,topic:nginx_log
+
+2024/06/02 18:06:38.078 [D]  send succ,pid:0,offset:866,topic:nginx_log
+
+2024/06/02 18:06:38.139 [D]  send succ,pid:0,offset:867,topic:nginx_log
+
+2024/06/02 18:06:38.201 [D]  send succ,pid:0,offset:868,topic:nginx_log
+
+2024/06/02 18:06:38.259 [D]  send succ,pid:0,offset:869,topic:nginx_log
+
+2024/06/02 18:06:38.319 [D]  send succ,pid:0,offset:870,topic:nginx_log
+
+2024/06/02 18:06:38.378 [D]  send succ,pid:0,offset:871,topic:nginx_log
+
+2024/06/02 18:06:38.438 [D]  send succ,pid:0,offset:872,topic:nginx_log
+
+2024/06/02 18:06:38.489 [D]  send succ,pid:0,offset:873,topic:nginx_log
+
+2024/06/02 18:06:38.549 [D]  send succ,pid:0,offset:874,topic:nginx_log
+
+2024/06/02 18:06:38.610 [D]  send succ,pid:0,offset:875,topic:nginx_log
+
+2024/06/02 18:06:38.669 [D]  send succ,pid:0,offset:876,topic:nginx_log
+
+2024/06/02 18:06:38.729 [D]  send succ,pid:0,offset:877,topic:nginx_log
+
+2024/06/02 18:06:38.789 [D]  send succ,pid:0,offset:878,topic:nginx_log
+
+2024/06/02 18:06:38.848 [D]  send succ,pid:0,offset:879,topic:nginx_log
+
+2024/06/02 18:06:38.908 [D]  send succ,pid:0,offset:880,topic:nginx_log
+
+2024/06/02 18:06:38.969 [D]  send succ,pid:0,offset:881,topic:nginx_log
+
+2024/06/02 18:06:39.010 [D]  send succ,pid:0,offset:882,topic:nginx_log
+
+2024/06/02 18:06:39.069 [D]  send succ,pid:0,offset:883,topic:nginx_log
+
+2024/06/02 18:06:39.128 [D]  send succ,pid:0,offset:884,topic:nginx_log
+
+2024/06/02 18:06:39.188 [D]  send succ,pid:0,offset:885,topic:nginx_log
+
+2024/06/02 18:06:39.249 [D]  send succ,pid:0,offset:886,topic:nginx_log
+
+2024/06/02 18:06:39.309 [D]  send succ,pid:0,offset:887,topic:nginx_log
+
+2024/06/02 18:06:39.369 [D]  send succ,pid:0,offset:888,topic:nginx_log
+
+2024/06/02 18:06:39.430 [D]  send succ,pid:0,offset:889,topic:nginx_log
+
+2024/06/02 18:06:39.493 [D]  send succ,pid:0,offset:890,topic:nginx_log
+
+2024/06/02 18:06:39.559 [D]  send succ,pid:0,offset:891,topic:nginx_log
+
+2024/06/02 18:06:39.619 [D]  send succ,pid:0,offset:892,topic:nginx_log
+
+2024/06/02 18:06:39.679 [D]  send succ,pid:0,offset:893,topic:nginx_log
+
+2024/06/02 18:06:39.739 [D]  send succ,pid:0,offset:894,topic:nginx_log
+
+2024/06/02 18:06:39.799 [D]  send succ,pid:0,offset:895,topic:nginx_log
+
+2024/06/02 18:06:39.859 [D]  send succ,pid:0,offset:896,topic:nginx_log
+
+2024/06/02 18:06:39.919 [D]  send succ,pid:0,offset:897,topic:nginx_log
+
+2024/06/02 18:06:39.979 [D]  send succ,pid:0,offset:898,topic:nginx_log
+
+2024/06/02 18:06:40.038 [D]  send succ,pid:0,offset:899,topic:nginx_log
+
+2024/06/02 18:06:40.099 [D]  send succ,pid:0,offset:900,topic:nginx_log
+
+2024/06/02 18:06:40.159 [D]  send succ,pid:0,offset:901,topic:nginx_log
+
+2024/06/02 18:06:40.219 [D]  send succ,pid:0,offset:902,topic:nginx_log
+
+2024/06/02 18:06:40.279 [D]  send succ,pid:0,offset:903,topic:nginx_log
+
+2024/06/02 18:06:40.339 [D]  send succ,pid:0,offset:904,topic:nginx_log
+
+2024/06/02 18:06:40.399 [D]  send succ,pid:0,offset:905,topic:nginx_log
+
+2024/06/02 18:06:40.459 [D]  send succ,pid:0,offset:906,topic:nginx_log
+
+2024/06/02 18:06:40.519 [D]  send succ,pid:0,offset:907,topic:nginx_log
+
+2024/06/02 18:06:40.579 [D]  send succ,pid:0,offset:908,topic:nginx_log
+
+2024/06/02 18:06:40.639 [D]  send succ,pid:0,offset:909,topic:nginx_log
+
+2024/06/02 18:06:40.699 [D]  send succ,pid:0,offset:910,topic:nginx_log
+
+2024/06/02 18:06:40.762 [D]  send succ,pid:0,offset:911,topic:nginx_log
+
+2024/06/02 18:06:40.829 [D]  send succ,pid:0,offset:912,topic:nginx_log
+
+2024/06/02 18:06:40.889 [D]  send succ,pid:0,offset:913,topic:nginx_log
+
+2024/06/02 18:06:40.949 [D]  send succ,pid:0,offset:914,topic:nginx_log
+
+2024/06/02 18:06:41.008 [D]  send succ,pid:0,offset:915,topic:nginx_log
+
+2024/06/02 18:06:41.069 [D]  send succ,pid:0,offset:916,topic:nginx_log
+
+2024/06/02 18:06:41.131 [D]  send succ,pid:0,offset:917,topic:nginx_log
+
+2024/06/02 18:06:41.189 [D]  send succ,pid:0,offset:918,topic:nginx_log
+
+2024/06/02 18:06:41.249 [D]  send succ,pid:0,offset:919,topic:nginx_log
+
+2024/06/02 18:06:41.309 [D]  send succ,pid:0,offset:920,topic:nginx_log
+
+2024/06/02 18:06:41.368 [D]  send succ,pid:0,offset:921,topic:nginx_log
+
+2024/06/02 18:06:41.428 [D]  send succ,pid:0,offset:922,topic:nginx_log
+
+2024/06/02 18:06:41.489 [D]  send succ,pid:0,offset:923,topic:nginx_log
+
+2024/06/02 18:06:41.549 [D]  send succ,pid:0,offset:924,topic:nginx_log
+
+2024/06/02 18:06:41.608 [D]  send succ,pid:0,offset:925,topic:nginx_log
+
+2024/06/02 18:06:41.668 [D]  send succ,pid:0,offset:926,topic:nginx_log
+
+2024/06/02 18:06:41.729 [D]  send succ,pid:0,offset:927,topic:nginx_log
+
+2024/06/02 18:06:41.788 [D]  send succ,pid:0,offset:928,topic:nginx_log
+
+2024/06/02 18:06:41.848 [D]  send succ,pid:0,offset:929,topic:nginx_log
+
+2024/06/02 18:06:41.909 [D]  send succ,pid:0,offset:930,topic:nginx_log
+
+2024/06/02 18:06:41.969 [D]  send succ,pid:0,offset:931,topic:nginx_log
+
+2024/06/02 18:06:42.028 [D]  send succ,pid:0,offset:932,topic:nginx_log
+
+2024/06/02 18:06:42.088 [D]  send succ,pid:0,offset:933,topic:nginx_log
+
+2024/06/02 18:06:42.149 [D]  send succ,pid:0,offset:934,topic:nginx_log
+
+2024/06/02 18:06:42.209 [D]  send succ,pid:0,offset:935,topic:nginx_log
+
+2024/06/02 18:06:42.270 [D]  send succ,pid:0,offset:936,topic:nginx_log
+
+2024/06/02 18:06:42.329 [D]  send succ,pid:0,offset:937,topic:nginx_log
+
+2024/06/02 18:06:42.348 [D]  send succ,pid:0,offset:938,topic:nginx_log
+
+2024/06/02 18:06:42.408 [D]  send succ,pid:0,offset:939,topic:nginx_log
+
+2024/06/02 18:06:42.469 [D]  send succ,pid:0,offset:940,topic:nginx_log
+
+2024/06/02 18:06:42.529 [D]  send succ,pid:0,offset:941,topic:nginx_log
+
+2024/06/02 18:06:42.588 [D]  send succ,pid:0,offset:942,topic:nginx_log
+
+2024/06/02 18:06:42.648 [D]  send succ,pid:0,offset:943,topic:nginx_log
+
+2024/06/02 18:06:42.709 [D]  send succ,pid:0,offset:944,topic:nginx_log
+
+2024/06/02 18:06:42.769 [D]  send succ,pid:0,offset:945,topic:nginx_log
+
+2024/06/02 18:06:42.837 [D]  send succ,pid:0,offset:946,topic:nginx_log
+
+2024/06/02 18:06:42.889 [D]  send succ,pid:0,offset:947,topic:nginx_log
+
+2024/06/02 18:06:42.949 [D]  send succ,pid:0,offset:948,topic:nginx_log
+
+2024/06/02 18:06:43.008 [D]  send succ,pid:0,offset:949,topic:nginx_log
+
+2024/06/02 18:06:43.069 [D]  send succ,pid:0,offset:950,topic:nginx_log
+
+2024/06/02 18:06:43.140 [D]  send succ,pid:0,offset:951,topic:nginx_log
+
+2024/06/02 18:06:43.199 [D]  send succ,pid:0,offset:952,topic:nginx_log
+
+2024/06/02 18:06:43.258 [D]  send succ,pid:0,offset:953,topic:nginx_log
+
+2024/06/02 18:06:43.322 [D]  send succ,pid:0,offset:954,topic:nginx_log
+
+2024/06/02 18:06:43.389 [D]  send succ,pid:0,offset:955,topic:nginx_log
+
+2024/06/02 18:06:43.448 [D]  send succ,pid:0,offset:956,topic:nginx_log
+
+2024/06/02 18:06:43.508 [D]  send succ,pid:0,offset:957,topic:nginx_log
+
+2024/06/02 18:06:43.568 [D]  send succ,pid:0,offset:958,topic:nginx_log
+
+2024/06/02 18:06:43.628 [D]  send succ,pid:0,offset:959,topic:nginx_log
+
+2024/06/02 18:06:43.691 [D]  send succ,pid:0,offset:960,topic:nginx_log
+
+2024/06/02 18:06:43.749 [D]  send succ,pid:0,offset:961,topic:nginx_log
+
+2024/06/02 18:06:43.808 [D]  send succ,pid:0,offset:962,topic:nginx_log
+
+2024/06/02 18:06:43.872 [D]  send succ,pid:0,offset:963,topic:nginx_log
+
+2024/06/02 18:06:43.919 [D]  send succ,pid:0,offset:964,topic:nginx_log
+
+2024/06/02 18:06:43.979 [D]  send succ,pid:0,offset:965,topic:nginx_log
+
+2024/06/02 18:06:44.039 [D]  send succ,pid:0,offset:966,topic:nginx_log
+
+2024/06/02 18:06:44.101 [D]  send succ,pid:0,offset:967,topic:nginx_log
+
+2024/06/02 18:06:44.149 [D]  send succ,pid:0,offset:968,topic:nginx_log
+
+2024/06/02 18:06:44.210 [D]  send succ,pid:0,offset:969,topic:nginx_log
+
+2024/06/02 18:06:44.269 [D]  send succ,pid:0,offset:970,topic:nginx_log
+
+2024/06/02 18:06:44.319 [D]  send succ,pid:0,offset:971,topic:nginx_log
+
+2024/06/02 18:06:44.378 [D]  send succ,pid:0,offset:972,topic:nginx_log
+
+2024/06/02 18:06:44.430 [D]  send succ,pid:0,offset:973,topic:nginx_log
+
+2024/06/02 18:06:44.490 [D]  send succ,pid:0,offset:974,topic:nginx_log
+
+2024/06/02 18:06:44.551 [D]  send succ,pid:0,offset:975,topic:nginx_log
+
+2024/06/02 18:06:44.611 [D]  send succ,pid:0,offset:976,topic:nginx_log
+
+2024/06/02 18:06:44.672 [D]  send succ,pid:0,offset:977,topic:nginx_log
+
+2024/06/02 18:06:44.708 [D]  send succ,pid:0,offset:978,topic:nginx_log
+
+2024/06/02 18:06:44.769 [D]  send succ,pid:0,offset:979,topic:nginx_log
+
+2024/06/02 18:06:44.829 [D]  send succ,pid:0,offset:980,topic:nginx_log
+
+2024/06/02 18:06:44.889 [D]  send succ,pid:0,offset:981,topic:nginx_log
+
+2024/06/02 18:06:44.949 [D]  send succ,pid:0,offset:982,topic:nginx_log
+
+2024/06/02 18:06:44.989 [D]  send succ,pid:0,offset:983,topic:nginx_log
+
+2024/06/02 18:06:45.039 [D]  send succ,pid:0,offset:984,topic:nginx_log
+
+2024/06/02 18:06:45.099 [D]  send succ,pid:0,offset:985,topic:nginx_log
+
+2024/06/02 18:06:45.158 [D]  send succ,pid:0,offset:986,topic:nginx_log
+
+2024/06/02 18:06:45.219 [D]  send succ,pid:0,offset:987,topic:nginx_log
+
+2024/06/02 18:06:45.279 [D]  send succ,pid:0,offset:988,topic:nginx_log
+
+2024/06/02 18:06:45.338 [D]  send succ,pid:0,offset:989,topic:nginx_log
+
+2024/06/02 18:06:45.398 [D]  send succ,pid:0,offset:990,topic:nginx_log
+
+2024/06/02 18:06:45.459 [D]  send succ,pid:0,offset:991,topic:nginx_log
+
+2024/06/02 18:06:45.519 [D]  send succ,pid:0,offset:992,topic:nginx_log
+
+2024/06/02 18:06:45.579 [D]  send succ,pid:0,offset:993,topic:nginx_log
+
+2024/06/02 18:06:45.640 [D]  send succ,pid:0,offset:994,topic:nginx_log
+
+2024/06/02 18:06:45.698 [D]  send succ,pid:0,offset:995,topic:nginx_log
+
+2024/06/02 18:06:45.759 [D]  send succ,pid:0,offset:996,topic:nginx_log
+
+2024/06/02 18:06:45.821 [D]  send succ,pid:0,offset:997,topic:nginx_log
+
+2024/06/02 18:06:45.881 [D]  send succ,pid:0,offset:998,topic:nginx_log
+
+2024/06/02 18:06:45.939 [D]  send succ,pid:0,offset:999,topic:nginx_log
+
+2024/06/02 18:06:46.000 [D]  send succ,pid:0,offset:1000,topic:nginx_log
+
+2024/06/02 18:06:46.059 [D]  send succ,pid:0,offset:1001,topic:nginx_log
+
+2024/06/02 18:06:46.118 [D]  send succ,pid:0,offset:1002,topic:nginx_log
+
+2024/06/02 18:06:46.179 [D]  send succ,pid:0,offset:1003,topic:nginx_log
+
+2024/06/02 18:06:46.239 [D]  send succ,pid:0,offset:1004,topic:nginx_log
+
+2024/06/02 18:06:46.299 [D]  send succ,pid:0,offset:1005,topic:nginx_log
+

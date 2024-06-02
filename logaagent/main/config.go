@@ -12,10 +12,11 @@ var (
 )
 
 type Config struct {
-	logLevel string
-	logPath  string
-
-	CollectConf []tail.CollectConf
+	logLevel    string
+	logPath     string
+	queueSize   int
+	kafkaAddr   string
+	CollectConf []tailf.CollectConf
 }
 
 //type CollectConf struct {
@@ -24,7 +25,7 @@ type Config struct {
 //}
 
 func loadCollectConf(conf config.Configer) (err error) {
-	var cc tail.CollectConf
+	var cc tailf.CollectConf
 	cc.LogPath = conf.String("collect::log_path")
 	if len(cc.LogPath) == 0 {
 		err = errors.New("invalid collect::log_path")
@@ -54,6 +55,16 @@ func loadConf(confType, filename string) (err error) {
 	appConfig.logPath = conf.String("logs::log_path")
 	if len(appConfig.logPath) == 0 {
 		appConfig.logPath = "./logs"
+	}
+	appConfig.queueSize, err = conf.Int("collect::queue_size")
+	if err != nil {
+		appConfig.queueSize = 200
+	}
+	appConfig.kafkaAddr = conf.String("kafka::server_addr")
+	if len(appConfig.kafkaAddr) == 0 {
+		//appConfig.kafkaAddr = "127.0.0.1:9092"
+		err = fmt.Errorf("error kafka server,err", err)
+		return
 	}
 	err = loadCollectConf(conf)
 	if err != nil {
